@@ -1,39 +1,39 @@
-import { NavLink, useParams, Outlet } from "react-router-dom";
+import { NavLink, useParams, Outlet, useNavigate } from "react-router-dom";
 import COURSES from '../app.json';
 import { useEffect, useState } from "react";
 
 const CourseList = props => {
     const [courses, setCourses] = useState(COURSES);
+    const navigate = useNavigate();
+
+    const cous = [
+        {id: 1, name: "Basic Fontend Web Development", img: "https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f18321b82797afe4defe702_101%20crashcourse.jpg", level: "Basic"},
+    ]
 
     return (
         <>
-            <div className="">
-                <div className="container mx-auto lg:px-40 py-3">
-                    <div className="grid lg:grid-cols-8 lg:gap-5">
-                        <div className="col-span-6">
-                            <iframe className="w-full aspect-video rounded-2xl" src="https://www.youtube.com/embed/_Z5-P9v3F8w" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                        </div>
-                        <div className="col-span-2">
-                            <div className="shadow p-5 rounded-2xl h-96 overflow-scroll">
-                                <div className="space-y-5">
-                                    {courses.map((COURSE) => {
-                                        return (
-                                            <NavLink to={`${COURSE.id}`} key={COURSE.id} className="flex items-center space-x-3">
-                                                <div className="w-10 h-10 border rounded-full flex justify-center items-center">
-                                                    <i className="fa-regular fa-circle-play"></i>
-                                                </div>
-                                                <h4>Unit 1 : Introduction</h4>
-                                            </NavLink>
-                                        )
-                                    })}
+            <div className="container mx-auto lg:px-32 lg:mt-9">
+                <h1>Courses</h1>
+                <div className="grid grid-cols-4 gap-3">
+                    {cous.map(cou => {
+                        return (
+                            <div key={cou.id} onClick={() => navigate(`/course/${cou.id}`)} className="shadow p-3 rounded-2xl group transition hover:scale-95 hover:bg-slate-50">
+                                <div className="relative">
+                                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition opacity-0 group-hover:opacity-100">
+                                        <i class="fa-regular fa-circle-play text-3xl text-white"></i>
+                                    </div>
+                                    <img className="rounded-xl mt-0 aspect-video" src={cou.img} alt="" />
                                 </div>
+                                <h3>{cou.name}</h3>
+                                <h6>{cou.level}</h6>
                             </div>
-                        </div>
-                    </div>
+                        )
+                    })}
                 </div>
             </div>
         </>
     )
+    
 }
 
 export default CourseList;

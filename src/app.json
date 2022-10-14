@@ -2,51 +2,57 @@
   {
     "id": 1,
     "title": "Unit 1 : Introduction",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
+    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w",
+    "time": "10:30",
+    "description": "Our goal is simple: we want to empower designers and agencies from all (UX, brand, product, graphic, fashion, industrial, and short track speed skating) to build a CMS-driven portfolio in 21 days that will generate leads — and potentially tear a hole in the very fabric of space and time. We included everything we learned about content strategy, information architecture, and quantum mechanics to create a course unlike any other course in the past, present, or future."
   },
   {
     "id": 2,
-    "title": "Unit 1 : Environment",
-    "url": "https://www.youtube.com/embed/iGFbwCznMjY"
+    "title": "Unit 1 : How to ask a letter?",
+    "url": "https://www.youtube.com/embed/UiKuOOY8ZnA",
+    "time": "10:00",
+    "description": ""
   },
   {
     "id": 3,
-    "title": "Unit 1 : Setup",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
+    "title": "Unit 1 : What is Digital Unit?",
+    "url": "https://www.youtube.com/embed/hxcMAM4WkTo",
+    "time": "09:02",
+    "description": ""
   },
   {
     "id": 4,
-    "title": "Unit 1 : Setup",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
+    "title": "Unit 1 : About Digital File.​",
+    "url": "https://www.youtube.com/embed/-EQ_xbz1c_o",
+    "time": "12:04",
+    "description": ""
   },
   {
     "id": 5,
-    "title": "Unit 1 : Setup",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
+    "title": "Unit 1 : Color​",
+    "url": "https://www.youtube.com/embed/RvfkKJjWGfI",
+    "time": "12:04",
+    "description": ""
   },
   {
     "id": 6,
-    "title": "Unit 1 : Setup",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
+    "title": "Unit 1 : most useful websites​",
+    "url": "https://www.youtube.com/embed/oIHHxsVGrNs",
+    "time": "12:04",
+    "description": ""
   },
   {
     "id": 7,
-    "title": "Unit 1 : Setup",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
+    "title": "Unit 1 : Useful Shortcut​",
+    "url": "https://www.youtube.com/embed/x4Y0G30njDU",
+    "time": "12:04",
+    "description": ""
   },
   {
     "id": 8,
-    "title": "Unit 1 : Setup",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
-  },
-  {
-    "id": 9,
-    "title": "Unit 1 : Setup",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
-  },
-  {
-    "id": 10,
-    "title": "Unit 1 : Setup",
-    "url": "https://www.youtube.com/embed/_Z5-P9v3F8w"
+    "title": "Unit 1 : Keys​",
+    "url": "https://www.youtube.com/embed/msBKVN2ycec",
+    "time": "12:04",
+    "description": ""
   }
 ]
