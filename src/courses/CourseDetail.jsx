@@ -2,32 +2,23 @@ import { useEffect, useState } from "react";
 import { NavLink, useParams, useNavigate, json } from "react-router-dom";
 import axios from "axios";
 
+// Get All Local APIs
 import COURSES from '../app.json';
+import getCopyAPIs from '../app.copy.json';
+
 import CourseDetailDescription from "./CourseDetailDescription";
+import CourseDescription from "./CourseDescription";
 
 const CourseDetail = props => { 
-    const {videoID} = useParams();
-
-    // const COURSES = [
-    //     {id: 1, title: "Unit 1 : Introduction", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    //     {id: 2, title: "Unit 1 : Environment", url: 'https://www.youtube.com/embed/iGFbwCznMjY'},
-    //     {id: 3, title: "Unit 1 : Setup", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    //     {id: 4, title: "Unit 1 : Setup", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    //     {id: 5, title: "Unit 1 : Setup", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    //     {id: 6, title: "Unit 1 : Setup", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    //     {id: 7, title: "Unit 1 : Setup", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    //     {id: 8, title: "Unit 1 : Setup", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    //     {id: 9, title: "Unit 1 : Setup", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    //     {id: 10, title: "Unit 1 : Setup", url: 'https://www.youtube.com/embed/_Z5-P9v3F8w'},
-    // ]
+    // const {videoID} = useParams();
+    const {courseName} = useParams();
+    // console.log(courseName)
 
     const [course, setCourse] = useState(COURSES);
+    const [copyAPIs, setcopyAPIs] = useState(getCopyAPIs);
 
-    // Store API (api.json)
-    // const COURSE = COURSES;
-
-    const ClickVideo = course.filter(cv => cv.id == videoID)
-    // console.log(ClickVideo[0])
+    const ClickVideo = copyAPIs.filter(cv => cv.courseName === courseName)
+    // console.log(ClickVideo[0].lessons)
     
     // const navigate = useNavigate()
     // onClick={() => navigate(`/course/${COURSE.id}`)}
@@ -36,7 +27,8 @@ const CourseDetail = props => {
         <>
             <div className="">
                 <div className="container mx-auto lg:px-32 lg:pt-9">
-                    <div className="grid lg:grid-cols-8 lg:gap-5">
+                    <CourseDescription datas={ClickVideo[0]} />
+                    {/* <div className="grid lg:grid-cols-8 lg:gap-5">
                         <div className="lg:col-span-6 p-3 lg:p-0 sticky top-0">
                             <iframe className="w-full aspect-video rounded-2xl" src={ClickVideo[0].url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
@@ -48,9 +40,6 @@ const CourseDetail = props => {
                                         return (
                                             <div key={COURSE.id} className="space-x-3 py-3">
                                                 <NavLink to={`/course/${COURSE.id}`} className={({isActive}) => isActive ? 'text-pink-500 flex justify-between no-underline' : 'flex justify-between no-underline'}>
-                                                    {/* <div className="w-10 h-10 border rounded-full flex justify-center items-center">
-                                                        <i className="fa-regular fa-circle-play"></i>
-                                                    </div> */}
                                                     <div className="flex items-center space-x-2">
                                                         <i className="fa-regular fa-circle-play"></i>
                                                         <span className="">{COURSE.title}</span>
@@ -63,10 +52,10 @@ const CourseDetail = props => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     {/* About This Lesson */}
-                    <CourseDetailDescription descriptions={ClickVideo[0]} />
+                    {/* <CourseDetailDescription descriptions={ClickVideo[0]} /> */}
                 </div>
             </div>
         </>

@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "courseName": "BFWD",
+    "img": "https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f18321b82797afe4defe702_101%20crashcourse.jpg",
+    "level": "Basic",
+    "logo": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg",
+    "description": " \n ### What will i learn? \n * HTML \n * CSS \n * JS (BASIC) \n * Adobe Photoshop (option) \n * Adobe Illustrator (option) \n * Adobe Xd (option) \n * [Build Instagram Redesign](https://sanlinhtik3.github.io/ig-redesign/) \n ### Who is the target audience? \n * Anyone who wants to learn to create websites, be it beginner or intermediate programmer. \n * If you want to start your carrier as a frontend web developer, HTML is a must alone with other technologies. \n * If you wnat to make beautiful and responsive website, then this course is a must. \n ### Benefits \n * HTML is fun to write and easy to get started with, no need to set up compiler or the environment. \n * Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer \n ### Requirement \n * You won't need to know anything before taking this course \n * Engerness to learn, and make awesome website \n * Nothing else it's just you, your computer and your hunger to get started tody. \n ",
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Unit 1 : Course Introduction",
+        "url": "https://www.youtube.com/embed/PLI-MaCAClg",
+        "time": "10:30",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "title": "Unit 1 : How to ask a letter?",
+        "url": "https://www.youtube.com/embed/UiKuOOY8ZnA",
+        "time": "10:00",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "title": "Unit 1 : What is Digital Unit?",
+        "url": "https://www.youtube.com/embed/hxcMAM4WkTo",
+        "time": "09:02",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "title": "Unit 1 : About Digital File​",
+        "url": "https://www.youtube.com/embed/-EQ_xbz1c_o",
+        "time": "12:04",
+        "description": ""
+      },
+      {
+        "id": 5,
+        "title": "Unit 1 : Color​",
+        "url": "https://www.youtube.com/embed/RvfkKJjWGfI",
+        "time": "12:04",
+        "description": ""
+      },
+      {
+        "id": 6,
+        "title": "Unit 1 : Most Useful Websites​",
+        "url": "https://www.youtube.com/embed/oIHHxsVGrNs",
+        "time": "12:04",
+        "description": ""
+      },
+      {
+        "id": 7,
+        "title": "Unit 1 : Useful Shortcut​",
+        "url": "https://www.youtube.com/embed/x4Y0G30njDU",
+        "time": "12:04",
+        "description": ""
+      },
+      {
+        "id": 8,
+        "title": "Unit 1 : Keys​",
+        "url": "https://www.youtube.com/embed/msBKVN2ycec",
+        "time": "12:04",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "courseName": "FWD",
+    "img": "https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f18321b82797afe4defe702_101%20crashcourse.jpg",
+    "level": "Basic",
+    "logo": "",
+    "description": "",
+    "lessons": [
+      {
+        "id": 1,
+        "title": "Unit 1 : Course Introduction",
+        "url": "https://www.youtube.com/embed/PLI-MaCAClg",
+        "time": "10:30",
+        "description": ""
+      },
+      {
+        "id": 2,
+        "title": "Unit 1 : How to ask a letter?",
+        "url": "https://www.youtube.com/embed/UiKuOOY8ZnA",
+        "time": "10:00",
+        "description": ""
+      },
+      {
+        "id": 3,
+        "title": "Unit 1 : What is Digital Unit?",
+        "url": "https://www.youtube.com/embed/hxcMAM4WkTo",
+        "time": "09:02",
+        "description": ""
+      },
+      {
+        "id": 4,
+        "title": "Unit 1 : About Digital File​",
+        "url": "https://www.youtube.com/embed/-EQ_xbz1c_o",
+        "time": "12:04",
+        "description": ""
+      },
+      {
+        "id": 5,
+        "title": "Unit 1 : Color​",
+        "url": "https://www.youtube.com/embed/RvfkKJjWGfI",
+        "time": "12:04",
+        "description": ""
+      },
+      {
+        "id": 6,
+        "title": "Unit 1 : Most Useful Websites​",
+        "url": "https://www.youtube.com/embed/oIHHxsVGrNs",
+        "time": "12:04",
+        "description": ""
+      },
+      {
+        "id": 7,
+        "title": "Unit 1 : Useful Shortcut​",
+        "url": "https://www.youtube.com/embed/x4Y0G30njDU",
+        "time": "12:04",
+        "description": ""
+      },
+      {
+        "id": 8,
+        "title": "Unit 1 : Keys​",
+        "url": "https://www.youtube.com/embed/msBKVN2ycec",
+        "time": "12:04",
+        "description": ""
+      }
+    ]
+  }
+]

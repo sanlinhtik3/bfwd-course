@@ -5,7 +5,7 @@ const Navbar = props => {
     return (
         <>
             <div className="bg-slate-50">
-                <div className="container mx-auto flex justify-between items-center px-3 lg:px-32 py-3">
+                <div className="container mx-auto flex justify-between items-center px-3 lg:px-10 2xl:px-32 py-3">
                     <div>
                         <h1 onClick={() => navigation('/')} className="text-3xl font-bold my-0">BFWD</h1>
                     </div>

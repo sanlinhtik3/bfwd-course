@@ -1,31 +1,38 @@
 import { NavLink, useParams, Outlet, useNavigate } from "react-router-dom";
-import COURSES from '../app.json';
 import { useEffect, useState } from "react";
 
+// Get Logal APIs
+import getAPIs from '../app.copy.json';
+import ThereIsNoData from "./ThereIsNoData";
+
 const CourseList = props => {
-    const [courses, setCourses] = useState(COURSES);
+    const [APIs, setAPIs] = useState(getAPIs);
+    // console.log(APIs)
+
     const navigate = useNavigate();
 
-    const cous = [
-        {id: 1, name: "Basic Fontend Web Development", img: "https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f18321b82797afe4defe702_101%20crashcourse.jpg", level: "Basic"},
-    ]
+    // console.log(APIs.length === 0)
+
+    if(APIs.length === 0) {
+        return <ThereIsNoData/>
+    }
 
     return (
         <>
-            <div className="container mx-auto lg:px-32 lg:mt-9">
+            <div className="container mx-auto px-5 lg:px-32 mt-9">
                 <h1>Courses</h1>
-                <div className="grid grid-cols-4 gap-3">
-                    {cous.map(cou => {
+                <div className="grid lg:grid-cols-4 gap-3">
+                    {APIs.map(API => {
                         return (
-                            <div key={cou.id} onClick={() => navigate(`/course/${cou.id}`)} className="shadow p-3 rounded-2xl group transition hover:scale-95 hover:bg-slate-50">
+                            <div key={API.id} onClick={() => navigate(`/course/${API.courseName}`)} className="shadow p-3 rounded-2xl group transition hover:scale-95 hover:bg-slate-50">
                                 <div className="relative">
                                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition opacity-0 group-hover:opacity-100">
-                                        <i class="fa-regular fa-circle-play text-3xl text-white"></i>
+                                        <i className="fa-regular fa-circle-play text-3xl text-white"></i>
                                     </div>
-                                    <img className="rounded-xl mt-0 aspect-video" src={cou.img} alt="" />
+                                    <img className="rounded-xl m-0 aspect-video" src={API.img} alt="" />
                                 </div>
-                                <h3>{cou.name}</h3>
-                                <h6>{cou.level}</h6>
+                                <h3 className="mt-3 mb-0">{API.courseName}</h3>
+                                <h6>{API.level}</h6>
                             </div>
                         )
                     })}
