@@ -19,9 +19,9 @@ const CourseList = props => {
 
     return (
         <>
-            <div className="container mx-auto px-5 lg:px-32 mt-9">
+            <div className="container mx-auto px-3 lg:px-10 2xl:px-32 mt-9">
                 <h1>Courses</h1>
-                <div className="grid lg:grid-cols-4 gap-3">
+                <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-3">
                     {APIs.map(API => {
                         return (
                             <div key={API.id} onClick={() => navigate(`/course/${API.courseName}`)} className="shadow p-3 rounded-2xl group transition hover:scale-95 hover:bg-slate-50">

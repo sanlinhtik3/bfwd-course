@@ -12,7 +12,7 @@ const Navbar = props => {
                     <div>
                         <ul className="flex lg:flex-row lg:space-x-3 list-none my-0">
                             <li>About</li>
-                            <li><NavLink className={({isActive}) => isActive ? 'text-pink-500 no-underline' : ''} to="/course/1">BFWD</NavLink></li>
+                            <li><NavLink className={({isActive}) => isActive ? 'text-pink-500 no-underline' : ''} to="/course/BFWD">BFWD</NavLink></li>
                         </ul>
                     </div>
                 </div>
