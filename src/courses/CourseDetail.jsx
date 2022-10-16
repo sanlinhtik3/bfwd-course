@@ -26,7 +26,7 @@ const CourseDetail = props => {
     return (
         <>
             <div className="">
-                <div className="container mx-auto lg:px-32 lg:pt-9">
+                <div className="container mx-auto lg:px-10 2xl:px-32 lg:pt-9">
                     <CourseDescription datas={ClickVideo[0]} />
                     {/* <div className="grid lg:grid-cols-8 lg:gap-5">
                         <div className="lg:col-span-6 p-3 lg:p-0 sticky top-0">

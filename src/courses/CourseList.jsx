@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 // Get Logal APIs
 import getAPIs from '../app.copy.json';
 import ThereIsNoData from "./ThereIsNoData";
+import LoadingScreen from "../components/LoadingScreen";
 
 const CourseList = props => {
     const [APIs, setAPIs] = useState(getAPIs);
@@ -15,6 +16,17 @@ const CourseList = props => {
 
     if(APIs.length === 0) {
         return <ThereIsNoData/>
+    }
+
+    const [isLoding, setIsLoding] = useState(true);
+    useEffect(() => {
+        setTimeout(() => {
+          setIsLoding(!isLoding);
+        }, 500);
+    }, []);
+
+    if(isLoding === true) {
+        return <LoadingScreen/>
     }
 
     return (

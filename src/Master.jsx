@@ -13,7 +13,8 @@ const Master = props => {
                 <Route path="/" element={<Course/>}></Route>
                 <Route path="/course" element={<Course/>} />
                 <Route path="/course/:courseName" element={<CourseDetail/>} />
-                <Route path="/course/:courseName/:videoID" element={<CourseWatching/>} />
+                <Route path="/course/:courseName/:guideID/:videoID" element={<CourseWatching/>} />
+                {/* <Route path="/course/:courseName/:videoID" element={<CourseWatching/>} /> */}
                 <Route path="*" element={<NotFount404/>} />
             </Routes>
         </>
