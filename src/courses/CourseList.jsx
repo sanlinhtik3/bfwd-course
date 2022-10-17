@@ -32,7 +32,7 @@ const CourseList = props => {
     return (
         <>
             <div className="container mx-auto px-3 lg:px-10 2xl:px-32 mt-9">
-                <h1>Courses</h1>
+                <h1>Course{APIs.length !== 1 && "s"}</h1>
                 <div className="grid md:grid-cols-3 xl:grid-cols-4 gap-3">
                     {APIs.map(API => {
                         return (

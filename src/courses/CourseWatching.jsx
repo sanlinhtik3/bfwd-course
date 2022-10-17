@@ -62,7 +62,7 @@ const CourseWatching = props => {
     return (
         <>
             <div className="">
-                <div className="container mx-auto px-3 lg:px-10 2xl:px-32 lg:pt-9">
+                <div className="container mx-auto px-3 lg:px-10 2xl:px-32 pt-5 lg:pt-9">
                     {/* Back Button */}
                     <button onClick={() => navigate(`/course/${courseName}`)} className="text-pink-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
                     <div className="flex items-center space-x-3 mb-5">
@@ -88,12 +88,12 @@ const CourseWatching = props => {
                                         return (
                                             <div key={courseUnit.id} className="">
                                                 {/* {console.log(courseUnit)} */}
-                                                <h2>{courseUnit.title}</h2>
+                                                <h2>Guide {courseUnit.id} : {courseUnit.title}</h2>
                                                 <div className="grid grid-cols-1 divide-y text-xs">
                                                     {courseUnit.lessons.map((COURSE) => {
                                                         return (
                                                             <div key={COURSE.id} className="space-x-3 py-3">
-                                                                <NavLink to={`/course/${courseName}/${courseUnit.id}/${COURSE.id}`} className={({isActive}) => isActive ? 'text-pink-500 flex justify-between no-underline' : 'flex justify-between no-underline'}>
+                                                                <NavLink to={`/course/${courseName}/${courseUnit.id}/${COURSE.id}`} className={({isActive}) => isActive ? 'text-pink-500 flex justify-between no-underline' : 'flex justify-between no-underline text-slate-500'}>
                                                                     <div className="flex items-center space-x-2">
                                                                         <i className="fa-regular fa-circle-play"></i>
                                                                         <span className="">{COURSE.title}</span>
