@@ -34,7 +34,7 @@ const CourseDescription = props => {
     return (
         <>
             <div className="px-3 lg:px-0">
-                <button onClick={() => navigate(-1)} className="text-pink-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
+                <button onClick={() => navigate('/')} className="text-pink-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
                 <div className="flex items-center space-x-3 mb-5">
                     <div className="border rounded-full p-2">
                         <img src={issetImg} className="w-10 h-10 m-0" alt="" />
