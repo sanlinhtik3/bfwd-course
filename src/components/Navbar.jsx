@@ -11,8 +11,8 @@ const Navbar = props => {
                     </div>
                     <div>
                         <ul className="flex lg:flex-row lg:space-x-3 list-none my-0">
-                            <li>About</li>
-                            <li><NavLink className={({isActive}) => isActive ? 'text-pink-500 no-underline' : ''} to="/">BFWD</NavLink></li>
+                            <li><NavLink className={({isActive}) => isActive ? 'text-pink-500 no-underline' : 'no-underline'} to="/about">About</NavLink></li>
+                            <li><NavLink className={({isActive}) => isActive ? 'text-pink-500 no-underline' : 'no-underline'} to="/">Courses</NavLink></li>
                         </ul>
                     </div>
                 </div>
