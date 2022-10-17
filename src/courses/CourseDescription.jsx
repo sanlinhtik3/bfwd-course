@@ -41,6 +41,7 @@ const CourseDescription = props => {
                     </div>
                     <h1 className="m-0">{props.datas.courseName}</h1>
                 </div>
+
                 <div className="grid lg:grid-cols-6 gap-5">
                     <div className="lg:col-span-4">
                         <div onClick={() => navigate(`/course/${props.datas.courseName}/1/1`)} className="shadow p-3 rounded-2xl group transition hover:scale-95 hover:bg-slate-50">

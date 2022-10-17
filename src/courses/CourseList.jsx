@@ -1,18 +1,18 @@
 import { NavLink, useParams, Outlet, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-// Get Logal APIs
-import getAPIs from '../app.copy.json';
 import ThereIsNoData from "./ThereIsNoData";
 import LoadingScreen from "../components/LoadingScreen";
+import axios from "axios";
+
+// Get Logal APIs
+import getAPIs from '../../app.json';
 
 const CourseList = props => {
-    const [APIs, setAPIs] = useState(getAPIs);
+    const [APIs, setAPIs] = useState(getAPIs.apis);
     // console.log(APIs)
 
     const navigate = useNavigate();
-
-    // console.log(APIs.length === 0)
 
     if(APIs.length === 0) {
         return <ThereIsNoData/>

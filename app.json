@@ -1,0 +1,118 @@
+{
+  "name": "Digital Hunter",
+  "description": "Free course",
+  "image": "",
+  "url": "https://digitalhunter.io",
+  "logo": "",
+  "created": "2015-01-01",
+  "modified": "2015-01-01",
+  "specificationVersion": "0.14",
+  "apis": [
+    {
+      "id": 1,
+      "courseName": "BFWD",
+      "img": "https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f18321b82797afe4defe702_101%20crashcourse.jpg",
+      "level": "Basic",
+      "logo": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg",
+      "description": " \n ### What will i learn? \n * HTML \n * CSS \n * JS (BASIC) \n * Adobe Photoshop (option) \n * Adobe Illustrator (option) \n * Adobe Xd (option) \n * [Build Instagram Redesign](https://sanlinhtik3.github.io/ig-redesign/) \n ### Who is the target audience? \n * Anyone who wants to learn to create websites, be it beginner or intermediate programmer. \n * If you want to start your carrier as a frontend web developer, HTML is a must alone with other technologies. \n * If you wnat to make beautiful and responsive website, then this course is a must. \n ### Benefits \n * HTML is fun to write and easy to get started with, no need to set up compiler or the environment. \n * Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer \n ### Requirement \n * You won't need to know anything before taking this course \n * Engerness to learn, and make awesome website \n * Nothing else it's just you, your computer and your hunger to get started tody. \n ",
+      "guides": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Course Introduction",
+              "url": "https://www.youtube.com/embed/PLI-MaCAClg",
+              "time": "27:44",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Course Demo",
+              "url": "https://www.youtube.com/embed/V8dgmtXnCxc",
+              "time": "6:40",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "How to ask question?",
+              "url": "https://www.youtube.com/embed/UiKuOOY8ZnA",
+              "time": "10:02",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "What is Digital Unit?",
+              "url": "https://www.youtube.com/embed/hxcMAM4WkTo",
+              "time": "9:02",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "About Digital File.​",
+              "url": "https://www.youtube.com/embed/-EQ_xbz1c_o",
+              "time": "9:02",
+              "description": ""
+            },
+            {
+              "id": 6,
+              "title": "About Color​",
+              "url": "https://www.youtube.com/embed/RvfkKJjWGfI",
+              "time": "20:55",
+              "description": ""
+            },
+            {
+              "id": 7,
+              "title": "Most Useful Websites​",
+              "url": "https://www.youtube.com/embed/oIHHxsVGrNs",
+              "time": "22:40",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Guide 2 :Environdment",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "VS Code installation",
+              "url": "https://www.youtube.com/embed/TC-hXs55esc",
+              "time": "3:39",
+              "description": "Just a link: https://code.visualstudio.com/"
+            },
+            {
+              "id": 2,
+              "title": "Install Google Chrome",
+              "url": "https://www.youtube.com/embed/a-sQGXhbeX4",
+              "time": "4:16",
+              "description": "Download : https://www.google.com/chrome/"
+            },
+            {
+              "id": 3,
+              "title": "VS Code Extension",
+              "url": "https://www.youtube.com/embed/jfbtfS3ghjM",
+              "time": "1:00",
+              "description": "* Open in Browser \n * Live Server \n * VS Code Icon \n * Material Icon \n "
+            },
+            {
+              "id": 4,
+              "title": "Useful Shortcut",
+              "url": "https://www.youtube.com/embed/x4Y0G30njDU",
+              "time": "19:42",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Keys",
+              "url": "https://www.youtube.com/embed/msBKVN2ycec",
+              "time": "10:38",
+              "description": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

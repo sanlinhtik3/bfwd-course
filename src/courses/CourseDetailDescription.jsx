@@ -11,14 +11,13 @@ const CourseDetailDescription = props => {
 
     return (
         <>
-            <div className="mt-20 px-3 lg:px-0">
+            <div className="mt-20">
                 <div className="">
                     <h5 className="">About This Lesson</h5>
                     <hr className="mt-3 mb-10" />
                     <div className="">
                         <h1 className="text-xl lg:text-2xl">{props.descriptions.title}</h1>
                         <p className="lg:max-w-2xl">
-                            {props.descriptions.description}
                             {props.descriptions.description != "" ? <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm, rehypeHighlight]} /> : <h4>No description!</h4>}
                         </p>
                     </div>

@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 import { NavLink, useParams, useNavigate, json } from "react-router-dom";
 import axios from "axios";
 
-// Get All Local APIs
-import getAPIs from '../app.copy.json';
-
 import CourseDetailDescription from "./CourseDetailDescription";
 import LoadingScreen from "../components/LoadingScreen";
+
+// Get All Local APIs
+import getAPIs from '../../app.json';
 
 const CourseWatching = props => { 
     const {courseName} = useParams();
@@ -16,45 +16,53 @@ const CourseWatching = props => {
 
     const navigate = useNavigate();
 
-    // console.log(videoID)
-    // console.log(courseName)
-
     // From (app.copy.json)
-    const [APIs, setAPIs] = useState(getAPIs);
-    // console.log(APIs.map(aaa => aaa.courseName))
-    // console.log(APIs.map(api => api.guides.map(ap => ap.lessons.map(gh => gh.title))))
+    const [APIs, setAPIs] = useState(getAPIs.apis);
+
+    // Get Api From apis center
+    // const [apiData, setApiData] = useState([]);
+    // const url = 'https://fakestoreapi.com/products'
+    // const url = 'https://raw.githubusercontent.com/sanlinhtik3/course-api/main/api.json'
+    
+    // useEffect(() => {
+    //     getData()
+    // }, [])
+
+    // async function getData() {
+    //     axios.get(url)
+    //     .then(function (response) {
+    //         // console.log(response);
+    //         setAPIs(response.data.apis)
+    //     })
+    //     .catch(function (error) {
+    //         // console.log(error);
+    //     })
+    // }
+
+    // console.log('apiData', APIs)
+    // console.log('getAPIs', getAPIs)
+
+
 
     // Filter Course Name
     const CourseName = APIs.filter(cv => cv.courseName === courseName);
     const [Ohh, setOhh] = useState(...CourseName)
-    console.log(Ohh)
 
     // Check Guide
     const CheckGuide = Ohh.guides.filter(cg => cg.id == guideID)
     const checkGuideGet = CheckGuide[0]
-    // console.log(CheckGuide[0])
 
     // Filter Lesson ID
     const WatchLesson = checkGuideGet.lessons.filter(cgg => cgg.id == videoID);
-    // console.log(WatchLesson)
-
-    // const [isLoding, setIsLoding] = useState(true);
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //       setIsLoding(!isLoding);
-    //     }, 2000);
-    // }, []);
-
-    // if(isLoding === true) {
-    //     return <LoadingScreen/>
-    // }
 
     let issetImg = (Ohh.logo != "" ? Ohh.logo : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png")
 
+    
+    
     return (
         <>
             <div className="">
-                <div className="container mx-auto lg:px-10 2xl:px-32 lg:pt-9">
+                <div className="container mx-auto px-3 lg:px-10 2xl:px-32 lg:pt-9">
                     {/* Back Button */}
                     <button onClick={() => navigate(`/course/${courseName}`)} className="text-pink-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
                     <div className="flex items-center space-x-3 mb-5">
@@ -67,12 +75,12 @@ const CourseWatching = props => {
                     <div className="grid lg:grid-cols-8 lg:gap-5">
 
                         {/* Lesson Video */}
-                        <div className="lg:col-span-5 xl:col-span-6 p-3 lg:p-0 sticky top-0">
+                        <div className="lg:col-span-5 xl:col-span-6 sticky top-0">
                             <iframe id="youtube-cus" className="w-full aspect-video rounded-2xl" src={WatchLesson[0].url} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                         </div>
 
                         {/* Lesson List */}
-                        <div className="lg:col-span-3 xl:col-span-2 p-3 lg:p-0">
+                        <div className="lg:col-span-3 xl:col-span-2">
                             <div className="shadow p-5 rounded-2xl h-96 lg:h-80 xl:h-[33rem] overflow-scroll">
                                 <h1 className=""><i className="fa-regular fa-file-video"></i> Lessons</h1>
                                 <div className="mb-10">

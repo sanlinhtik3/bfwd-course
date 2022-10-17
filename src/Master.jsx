@@ -4,8 +4,11 @@ import Navbar from "./components/Navbar";
 import Course from "./courses/Course";
 import CourseDetail from "./courses/CourseDetail";
 import CourseWatching from "./courses/CourseWatching";
+import Test from "./courses/Test";
+import axios from "axios";
 
 const Master = props => {
+
     return (
         <>
             <Navbar/>
@@ -14,7 +17,7 @@ const Master = props => {
                 <Route path="/course" element={<Course/>} />
                 <Route path="/course/:courseName" element={<CourseDetail/>} />
                 <Route path="/course/:courseName/:guideID/:videoID" element={<CourseWatching/>} />
-                {/* <Route path="/course/:courseName/:videoID" element={<CourseWatching/>} /> */}
+                <Route path="/test" element={<Test/>} />
                 <Route path="*" element={<NotFount404/>} />
             </Routes>
         </>
