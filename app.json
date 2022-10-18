@@ -4,9 +4,10 @@
   "image": "",
   "url": "https://digitalhunter.io",
   "logo": "",
-  "created": "2015-01-01",
-  "modified": "2015-01-01",
-  "specificationVersion": "0.14",
+  "logo-brand": "",
+  "created": "2022-10-10",
+  "modified": "22022-10-18",
+  "specificationVersion": "dev 0.0.8",
   "apis": [
     {
       "id": 1,

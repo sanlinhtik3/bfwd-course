@@ -1,14 +1,13 @@
 import { useEffect, useState } from "react";
-import { NavLink, useParams, useNavigate, json } from "react-router-dom";
+import { NavLink, useParams, useNavigate } from "react-router-dom";
 import axios from "axios";
 
 import CourseDetailDescription from "./CourseDetailDescription";
-import LoadingScreen from "../components/LoadingScreen";
 
 // Get All Local APIs
 import getAPIs from '../../app.json';
 
-const CourseWatching = props => { 
+const CourseWatching = props => {
     const {courseName} = useParams();
     const {guideID} = useParams();
     const {videoID} = useParams();
@@ -17,31 +16,8 @@ const CourseWatching = props => {
     const navigate = useNavigate();
 
     // From (app.copy.json)
+    // const [APIs, setAPIs] = useState(getAPIs.apis);
     const [APIs, setAPIs] = useState(getAPIs.apis);
-
-    // Get Api From apis center
-    // const [apiData, setApiData] = useState([]);
-    // const url = 'https://fakestoreapi.com/products'
-    // const url = 'https://raw.githubusercontent.com/sanlinhtik3/course-api/main/api.json'
-    
-    // useEffect(() => {
-    //     getData()
-    // }, [])
-
-    // async function getData() {
-    //     axios.get(url)
-    //     .then(function (response) {
-    //         // console.log(response);
-    //         setAPIs(response.data.apis)
-    //     })
-    //     .catch(function (error) {
-    //         // console.log(error);
-    //     })
-    // }
-
-    // console.log('apiData', APIs)
-    // console.log('getAPIs', getAPIs)
-
 
 
     // Filter Course Name
@@ -57,8 +33,6 @@ const CourseWatching = props => {
 
     let issetImg = (Ohh.logo != "" ? Ohh.logo : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png")
 
-    
-    
     return (
         <>
             <div className="">

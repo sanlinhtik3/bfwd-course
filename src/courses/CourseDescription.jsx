@@ -2,16 +2,18 @@ import { NavLink, useNavigate, useParams } from "react-router-dom";
 import {decode} from 'html-entities';
 import { useEffect, useState } from "react";
 import React from 'react'
+
+// Mark Down
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import rehypeHighlight from 'rehype-highlight'
-import LoadingScreen from "../components/LoadingScreen";
+import remarkSlug from 'remark-slug'
+import remarkToc from 'remark-toc'
+import rehypeRaw from 'rehype-raw'
 
 const CourseDescription = props => {
     const {guideID} = useParams();
     const {videoID} = useParams();
-
-    // console.log('Video id : ', videoID , "Guide id :", guideID)
     
     const navigate = useNavigate();
 
@@ -19,17 +21,6 @@ const CourseDescription = props => {
 
     let issetImg = (props.datas.logo != "" ? props.datas.logo : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png")
     // console.log(decode(props.datas.description))
-
-    // const [isLoding, setIsLoding] = useState(true);
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //       setIsLoding(!isLoding);
-    //     }, 2000);
-    // }, []);
-
-    // if(isLoding === true) {
-    //     return <LoadingScreen/>
-    // }
 
     return (
         <>
@@ -56,7 +47,13 @@ const CourseDescription = props => {
                         </div>
                     </div>
                     <div className="lg:col-span-2">
-                        {props.datas.description != "" ? <ReactMarkdown children={markdown} remarkPlugins={[remarkGfm, rehypeHighlight]} /> : <h4>No description!</h4>}
+                        {props.datas.description != "" ? 
+                        <ReactMarkdown 
+                            children={markdown}
+                            className="markdown-body"
+                            remarkPlugins={[remarkSlug, remarkToc, remarkGfm]}
+                            rehypePlugins={[[rehypeHighlight, {ignoreMissing: true}]]}
+                        /> : <h4>No description!</h4>}
                     </div>
                 </div>
                 

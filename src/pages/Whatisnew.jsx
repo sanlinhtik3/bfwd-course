@@ -12,22 +12,23 @@ import remarkSlug from 'remark-slug'
 import remarkToc from 'remark-toc'
 import rehypeRaw from 'rehype-raw'
 
-const About = props => {
+const Whatisnew = props => {
+    
     const navigate = useNavigate();
 
-    const markdown = ` Web Development ကို လေ့လာမည့် သူများအတွက် ရေးဆွဲထားခြင်းဖြစ်ပါတယ်။ လောလောဆယ်မှာ BFWD Course ပဲ့ရှိပါတယ်။ BFWD က Free Course ဖြစ်ပါတယ်။
-### သင်ခန်းစာများကို ဘယ်လိုလေ့လာရမှာလဲ?
-* တစ်နေ့ သင်ခန်းစာ (3) ပုဒ်နှုန်းဖြင့်လေ့လာပေးပါ။
-* မိမိတစ်နေ့ လေ့လာပြီးသွားတဲ့ သင်ခန်းစာများကို မှတ်ထားပေးပါ။
+    const markdown = ` ## Whta\'s new?
+#### dev 0.0.9
+* What's new? add new page
+* Update text view
 
-\`အဆင်ပြေကြပါစေဗျာ\` `
+`
 
     return (
         <>
 
             <HelmetProvider>
                 <Helmet>
-                    <title>BFWD | About</title>
+                    <title>BFWD | What's new?</title>
                 </Helmet>
             </HelmetProvider>
 
@@ -49,4 +50,4 @@ const About = props => {
     )
 }
 
-export default About;
+export default Whatisnew;

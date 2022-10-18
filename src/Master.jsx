@@ -8,11 +8,19 @@ import Test from "./courses/Test";
 import axios from "axios";
 import Alert from "./components/Alert";
 import About from "./pages/About";
+import MarkDown from "./courses/MarkDown";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+import Whatisnew from "./pages/Whatisnew";
 
 const Master = props => {
 
     return (
         <>
+            <HelmetProvider>
+                <Helmet>
+                    <title>BFWD</title>
+                </Helmet>
+            </HelmetProvider>
             <Alert/>
             <Navbar/>
             <Routes>
@@ -22,6 +30,8 @@ const Master = props => {
                 <Route path="/course/:courseName/:guideID/:videoID" element={<CourseWatching/>} />
                 <Route path="/test" element={<Test/>} />
                 <Route path="/about" element={<About/>} />
+                <Route path="/whatisnew" element={<Whatisnew/>} />
+                <Route path="/md" element={<MarkDown/>} />
                 <Route path="*" element={<NotFount404/>} />
             </Routes>
         </>
