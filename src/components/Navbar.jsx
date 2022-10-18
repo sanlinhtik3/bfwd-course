@@ -6,7 +6,6 @@ import getAPIs from '../../app.json';
 const Navbar = props => {
     // Get apis form local
     const [APIs, setAPIs] = useState(getAPIs);
-    // console.log(APIs)
 
     const navigation = useNavigate();
     return (

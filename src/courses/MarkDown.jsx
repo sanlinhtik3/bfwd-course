@@ -97,7 +97,7 @@ const MarkDown = () => {
                     <title>Mark Down</title>
                 </Helmet>
             </HelmetProvider>
-            <div className="">
+            <div className="container mx-auto px-3 pt-5 lg:px-10 2xl:px-32 lg:pt-9">
                 <ReactMarkdown
                     className="markdown-body"
                     remarkPlugins={[remarkSlug, remarkToc, remarkGfm]}

@@ -10,7 +10,6 @@ import getAPIs from '../../app.json';
 
 const CourseList = props => {
     const [APIs, setAPIs] = useState(getAPIs.apis);
-    // console.log(APIs)
 
     const navigate = useNavigate();
 
