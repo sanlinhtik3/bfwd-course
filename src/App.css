@@ -1,5 +1,5 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github-dark.min.css');
+/* @import url('https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/github-dark.min.css'); */
 @import url('./github-markdown.css');
 
 /* #root {
@@ -56,4 +56,11 @@
 /* Markdown */
 .markdown-body .highlight pre, .markdown-body pre  {
   background-color: var(--tw-prose-pre-bg)!important;
+}
+
+/* Highlight */
+.shl {
+  padding: 0!important;
+  background: transparent!important;
+  margin: 0!important;
 }

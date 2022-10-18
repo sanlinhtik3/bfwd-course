@@ -11,10 +11,15 @@ import remarkSlug from 'remark-slug'
 import remarkToc from 'remark-toc'
 import rehypeRaw from 'rehype-raw'
 
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism'
+
 const markdown = `# A demo of \`react-markdown\`
 \`react-markdown\` is a markdown component for React.
 👉 Changes are re-rendered as you type.
 👈 Try writing some markdown on the left.
+
 ## Overview
 * Follows [CommonMark](https://commonmark.org)
 * Optionally follows [GitHub Flavored Markdown](https://github.github.com/gfm/)
@@ -86,10 +91,10 @@ ReactDOM.render(
 Much more info is available in the
 [readme on GitHub](https://github.com/remarkjs/react-markdown)!
 ***
-A component by [Espen Hovlandsdal](https://espen.codes/)`
+A component by [Espen Hovlandsdal](https://espen.codes/)`;
 
 const MarkDown = () => {
-
+    const syntaxTheme = vscDarkPlus
     return (
         <>
             <HelmetProvider>
@@ -97,11 +102,32 @@ const MarkDown = () => {
                     <title>Mark Down</title>
                 </Helmet>
             </HelmetProvider>
-            <div className="container mx-auto px-3 pt-5 lg:px-10 2xl:px-32 lg:pt-9">
+            <div className="container mx-auto px-3 py-10 lg:px-10 2xl:px-32 lg:py-10">
                 <ReactMarkdown
                     className="markdown-body"
                     remarkPlugins={[remarkSlug, remarkToc, remarkGfm]}
-                    rehypePlugins={[[rehypeHighlight, {ignoreMissing: true}]]}
+                    // rehypePlugins={[[rehypeHighlight, {ignoreMissing: true}, rehypeRaw]]}
+                    rehypePlugins={[[rehypeRaw]]}
+                    components={{
+                      code({node, inline, className, children, ...props}) {
+                        const match = /language-(\w+)/.exec(className || '')
+                        return !inline && match ? (
+                          <SyntaxHighlighter
+                            children={String(children).replace(/\n$/, '')}
+                            style={syntaxTheme}
+                            language={match[1]}
+                            PreTag="div"
+                            className="shl"
+                            // showLineNumbers={true}
+                            {...props}
+                          />
+                        ) : (
+                          <code className={className} {...props}>
+                            {children}
+                          </code>
+                        )
+                      }
+                    }}
                 >
                     {markdown}
                 </ReactMarkdown>
@@ -109,5 +135,7 @@ const MarkDown = () => {
         </>
       )
 }
+
+
 
 export default MarkDown;
