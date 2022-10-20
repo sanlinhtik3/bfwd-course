@@ -7,12 +7,12 @@
   "logo-brand": "",
   "created": "2022-10-10",
   "modified": "22022-10-18",
-  "specificationVersion": "dev 0.0.8",
+  "specificationVersion": "beta 1.0.0",
   "apis": [
     {
       "id": 1,
       "courseName": "BFWD",
-      "img": "https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f18321b82797afe4defe702_101%20crashcourse.jpg",
+      "img": "/img/bfwd.png",
       "level": "Basic",
       "logo": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg",
       "description": " \n ### What will i learn? \n * HTML \n * CSS \n * JS (BASIC) \n * Adobe Photoshop (option) \n * Adobe Illustrator (option) \n * Adobe Xd (option) \n * [Build Instagram Redesign](https://sanlinhtik3.github.io/ig-redesign/) \n ### Who is the target audience? \n * Anyone who wants to learn to create websites, be it beginner or intermediate programmer. \n * If you want to start your carrier as a frontend web developer, HTML is a must alone with other technologies. \n * If you wnat to make beautiful and responsive website, then this course is a must. \n ### Benefits \n * HTML is fun to write and easy to get started with, no need to set up compiler or the environment. \n * Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer \n ### Requirement \n * You won't need to know anything before taking this course \n * Engerness to learn, and make awesome website \n * Nothing else it's just you, your computer and your hunger to get started tody. \n ",
@@ -109,6 +109,504 @@
               "title": "Keys",
               "url": "https://www.youtube.com/embed/msBKVN2ycec",
               "time": "10:38",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "HTML",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is programming language?",
+              "url": "https://www.youtube.com/embed/5mjZ_nz5ImE",
+              "time": "10:2",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "HTML",
+              "url": "https://www.youtube.com/embed/h-5Rs6fZDSA",
+              "time": "19:16",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "HTML Attribute",
+              "url": "https://www.youtube.com/embed/KUG3700wCX0",
+              "time": "1:00",
+              "description": "* Open in Browser \n * Live Server \n * VS Code Icon \n * Material Icon \n "
+            },
+            {
+              "id": 4,
+              "title": "HTML Structure",
+              "url": "https://www.youtube.com/embed/c_-HdQNqF6U",
+              "time": "12:47",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "HTML Block and Inline Elements",
+              "url": "https://www.youtube.com/embed/m5aw79BiXGQ",
+              "time": "11:09",
+              "description": "ပုံမှန်ဆိုရင် HTML Element တွေမှာ သူ့ Display Value တွေရှိပါတယ်။ အဲ့ဒီ Display တွေကို ပြပြင်ဖို့အတွက် HTML Block and Inline Elements ကို သိရမှာပါ.. Ok ကြည့်ရအောင် \n Reference link: https://www.w3schools.com/html/html_blocks.asp"
+            },
+            {
+              "id": 6,
+              "title": "HTML Layout",
+              "url": "https://www.youtube.com/embed/s5BKafgqg2Q",
+              "time": "3:20",
+              "description": ""
+            },
+            {
+              "id": 7,
+              "title": "HTML Entities Emojis Symbols",
+              "url": "https://www.youtube.com/embed/131M18zOYHw",
+              "time": "10:09",
+              "description": ""
+            },
+            {
+              "id": 8,
+              "title": "HTML Lists",
+              "url": "https://www.youtube.com/embed/d5X-G4rNwXw",
+              "time": "5:21",
+              "description": ""
+            },
+            {
+              "id": 9,
+              "title": "HTML Tables",
+              "url": "https://www.youtube.com/embed/lBSPnBDtcVc",
+              "time": "15:32",
+              "description": ""
+            },
+            {
+              "id": 10,
+              "title": "HTML Form Ep1",
+              "url": "https://www.youtube.com/embed/t6OHNp33KV0",
+              "time": "24:20",
+              "description": ""
+            },
+            {
+              "id": 11,
+              "title": "HTML Form Ep2",
+              "url": "https://www.youtube.com/embed/8--uKb5HySg",
+              "time": "18:08",
+              "description": ""
+            },
+            {
+              "id": 12,
+              "title": "HTML Conclusion",
+              "url": "https://www.youtube.com/embed/BIo7Lik3nA4",
+              "time": "16:38",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "title": "CSS",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "CSS Introduction",
+              "url": "https://www.youtube.com/embed/qgZp4IbNxFs",
+              "time": "7:14",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "CSS Syntax",
+              "url": "https://www.youtube.com/embed/TWyIVwStsOs",
+              "time": "1:49",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "CSS Selectors Ep1",
+              "url": "https://www.youtube.com/embed/gKvILD_unKw",
+              "time": "7:38",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Insert CSS",
+              "url": "https://www.youtube.com/embed/RdseE8-E25A",
+              "time": "10:46",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "CSS Multiple Style Sheets & Cascading Order",
+              "url": "https://www.youtube.com/embed/OeYapma4uk8",
+              "time": "23:57",
+              "description": ""
+            },
+            {
+              "id": 6,
+              "title": "CSS Selector Ep2",
+              "url": "https://www.youtube.com/embed/E7bztUrjls8",
+              "time": "13:03",
+              "description": ""
+            },
+            {
+              "id": 7,
+              "title": "CSS Selector Pseudo-Classes Ep3",
+              "url": "https://www.youtube.com/embed/u_h3ep43kxk",
+              "time": "12:36",
+              "description": ""
+            },
+            {
+              "id": 8,
+              "title": "CSS Backgrounds",
+              "url": "https://www.youtube.com/embed/qK3SQxda48Y",
+              "time": "51:34",
+              "description": "နောက်ခံအရောင် ချိန်းချင်တာပဲ့ဖြစ်ဖြစ်၊ ပုံထည့်ချင်တာပဲ့ဖြစ်ဖြစ် ကျွန်တော်‌တို့ CSS ရဲ့ background property ကိုသိထားဖို့လိုအပ်ပါတယ်။ အိုခေ ကြည့်ရအောင် \n Reference : https://www.w3schools.com/css/css_background.asp"
+            },
+            {
+              "id": 9,
+              "title": "CSS Text",
+              "url": "https://www.youtube.com/embed/YTQs-jUPaUQ",
+              "time": "22:02",
+              "description": ""
+            },
+            {
+              "id": 10,
+              "title": "CSS Fonts",
+              "url": "https://www.youtube.com/embed/IY6KiGHBjas",
+              "time": "22:24",
+              "description": ""
+            },
+            {
+              "id": 11,
+              "title": "Ep1 CSS Display Property",
+              "url": "https://www.youtube.com/embed/_89JDyQCCFY",
+              "time": "21:31",
+              "description": ""
+            },
+            {
+              "id": 12,
+              "title": "Ep 2 CSS Inline block",
+              "url": "https://www.youtube.com/embed/aIAOuyooVcQ",
+              "time": "4:24",
+              "description": ""
+            },
+            {
+              "id": 13,
+              "title": "CSS Box Model",
+              "url": "https://www.youtube.com/embed/sMkJ4FY2MdQ",
+              "time": "21:07",
+              "description": ""
+            },
+            {
+              "id": 14,
+              "title": "CSS Layout Design",
+              "url": "https://www.youtube.com/embed/knZA_1No4wA",
+              "time": "17:30",
+              "description": "သင်ခဲ့ပြီးသား HTML CSS ကိုပေါင်းစပ်သုံးပြီးတော့ Layout Design တစ်ခုရေးဆွဲကြည့်ရအောင်ပါ။ \n #### Hax Color \n `#FCA5A5` \n `#FDE68A` \n `#6EE7B7` \n `#93C5FD` \n HTML Block and Inline Elements \n https://www.w3schools.com/html/html_blocks.asp \n HTML Layout Elements \n https://www.w3schools.com/html/html_layout.asp             "
+            },
+            {
+              "id": 15,
+              "title": "CSS Position",
+              "url": "https://www.youtube.com/embed/BJsgIfKNGw8",
+              "time": "19:42",
+              "description": ""
+            },
+            {
+              "id": 16,
+              "title": "CSS Border",
+              "url": "https://www.youtube.com/embed/vfqZiSTOzbA",
+              "time": "19:34",
+              "description": ""
+            },
+            {
+              "id": 17,
+              "title": "CSS Box Sizing",
+              "url": "https://www.youtube.com/embed/ls_C4zFpm9M",
+              "time": "10:20",
+              "description": ""
+            },
+            {
+              "id": 18,
+              "title": "CSS Shadows",
+              "url": "https://www.youtube.com/embed/AdaJ2fUFlfI",
+              "time": "18:32",
+              "description": ""
+            },
+            {
+              "id": 19,
+              "title": "CSS Button",
+              "url": "https://www.youtube.com/embed/vli5FcRQu3A",
+              "time": "40:28",
+              "description": ""
+            },
+            {
+              "id": 20,
+              "title": "CSS List group",
+              "url": "https://www.youtube.com/embed/T0J_tNP4HWg",
+              "time": "17:30",
+              "description": ""
+            },
+            {
+              "id": 21,
+              "title": "Card Ep 1",
+              "url": "https://www.youtube.com/embed/RspdKrranh4",
+              "time": "19:42",
+              "description": ""
+            },
+            {
+              "id": 22,
+              "title": "Card Ep 2",
+              "url": "https://www.youtube.com/embed/evNjmnihadA",
+              "time": "20:24",
+              "description": ""
+            },
+            {
+              "id": 23,
+              "title": "CSS Media Queries",
+              "url": "https://www.youtube.com/embed/Cc1MpwnNAHU",
+              "time": "12:26",
+              "description": ""
+            },
+            {
+              "id": 24,
+              "title": "Login Form",
+              "url": "https://www.youtube.com/embed/ieNPvsWwDmM",
+              "time": "33:38",
+              "description": ""
+            },
+            {
+              "id": 25,
+              "title": "CSS Table",
+              "url": "https://www.youtube.com/embed/vrPeAmQBOYo",
+              "time": "18:13",
+              "description": "Table ကိုလှလှလေးဖြစ်အောင်တည်ဆောက်ကြည့်ရအောင်။ \n Reference : https://www.w3schools.com/css/css_table.asp \n https://www.w3schools.com/cssref/sel_nth-child.asp              "
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "JavaScript",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is JavaScript?",
+              "url": "https://www.youtube.com/embed/4SMfef729V8",
+              "time": "10:29",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "JS Basic Vocabulary",
+              "url": "https://www.youtube.com/embed/xWMt0jLQU-U",
+              "time": "19:08",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "JS Datatype Ep1",
+              "url": "https://www.youtube.com/embed/-LMpLw3c2fU",
+              "time": "16:35",
+              "description": "JS မှာပါဝင်တဲ့ Data Type ကိုလေ့လာလိုက်ကြရ‌အောင်. \n * Open in Browser \n * Live Server \n * VS Code Icon \n * Material Icon \n "
+            },
+            {
+              "id": 4,
+              "title": "JS Array",
+              "url": "https://www.youtube.com/embed/fWBhSp3wEy4",
+              "time": "25:29",
+              "description": "JS မှာ တစ်ခုထက်ပိုတဲ့ တန်ဖိုး‌တွေကို သိမ်းဆည်းလိုရင် Array ကိုအသုံးပြုလို့ရပါတယ်။ Reference : https://www.w3schools.com/js/js_arrays.asp"
+            },
+            {
+              "id": 5,
+              "title": "JS Objects",
+              "url": "https://www.youtube.com/embed/ZVMiuPwnYEA",
+              "time": "17:00",
+              "description": "Reference : https://www.youtube.com/embed/ZVMiuPwnYEA"
+            },
+            {
+              "id": 6,
+              "title": "DOM Basic",
+              "url": "https://www.youtube.com/embed/h70L3QRVez4",
+              "time": "21:17",
+              "description": ""
+            },
+            {
+              "id": 7,
+              "title": "Operators",
+              "url": "https://www.youtube.com/embed/0de9h-IWPhM",
+              "time": "22:15",
+              "description": ""
+            },
+            {
+              "id": 8,
+              "title": "Conditional Statements",
+              "url": "https://www.youtube.com/embed/GzYl7yvAO2M",
+              "time": "7:38",
+              "description": "အခြေအနေပေါ်တည်ပြီးတော့ အလုပ်လုပ်စေချင်တဲ့အခါ if Statement ကိုသုံးလို့ရပါတယ်။ \n Reference \n https://www.w3schools.com/js/js_if_else.asp"
+            },
+            {
+              "id": 9,
+              "title": "JS Function",
+              "url": "https://www.youtube.com/embed/xkO_n5KEaTM",
+              "time": "14:40",
+              "description": "အလုပ်တစ်ခုပြီး‌မြောက်ဖို့အတွက် သူလုပ်ရမည့်အလုပ်တွေကို နာမည်ပေးပြီးတော့ code တွေစုပြီးရေးထားတဲ့ block of code ဖြစ်ပါတယ်။ \n Reference \n https://www.w3schools.com/js/js_functions.asp"
+            },
+            {
+              "id": 10,
+              "title": "JS Function Expressions",
+              "url": "https://www.youtube.com/embed/IxgI3G4Y3uU",
+              "time": "13:47",
+              "description": ""
+            },
+            {
+              "id": 11,
+              "title": "JS Nyi Ma Lay Mini Mark",
+              "url": "https://www.youtube.com/embed/fJPyV1tFjAQ",
+              "time": "31:05",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Photoshop",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "How to use Adobe Photoshop",
+              "url": "https://www.youtube.com/embed/Q5OxzJ72Zto",
+              "time": "6:34",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Adobe Photoshop Setup",
+              "url": "https://www.youtube.com/embed/OGOEaxf5XOY",
+              "time": "8:06",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Basic Tools",
+              "url": "https://www.youtube.com/embed/FXXWOggin4I",
+              "time": "13:49",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Practical",
+              "url": "https://www.youtube.com/embed/qDbo3uRXG44",
+              "time": "29:28",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Crop Tool​",
+              "url": "https://www.youtube.com/embed/CMovXk_AAJM",
+              "time": "4:41",
+              "description": ""
+            },
+            {
+              "id": 6,
+              "title": "Photo Resize​",
+              "url": "https://www.youtube.com/embed/SMiXliUdIJs",
+              "time": "20:55",
+              "description": ""
+            },
+            {
+              "id": 7,
+              "title": "PS Compress​",
+              "url": "https://www.youtube.com/embed/gaqlhFHOFuQ",
+              "time": "4:45",
+              "description": ""
+            },
+            {
+              "id": 8,
+              "title": "PS Gradient Color​",
+              "url": "https://www.youtube.com/embed/8AdnI2AK5rM",
+              "time": "8:44",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "title": "Illustrator",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Ai introduction",
+              "url": "https://www.youtube.com/embed/WTD4smutoQ0",
+              "time": "12:35",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Home Ep 1",
+              "url": "https://www.youtube.com/embed/_-veGyHrszI",
+              "time": "19:29",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Home Ep 2",
+              "url": "https://www.youtube.com/embed/gdUEbefYAyk",
+              "time": "15:43",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Incognito Ep 1",
+              "url": "https://www.youtube.com/embed/b94iGyO6LbA",
+              "time": "24:55",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Incognito Ep 2​",
+              "url": "https://www.youtube.com/embed/DHQhqISk7G4",
+              "time": "11:01",
+              "description": ""
+            },
+            {
+              "id": 6,
+              "title": "Ai Resource​",
+              "url": "https://www.youtube.com/embed/pPFLGmrtP6Q",
+              "time": "27:43",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Xd",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Adobe XD setup",
+              "url": "https://www.youtube.com/embed/WqSKG9ff8VM",
+              "time": "09:23",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Introduction Adobe XD",
+              "url": "https://www.youtube.com/embed/Phv8cVdizY8",
+              "time": "16:58",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Home Portfolio Home Page Ep1",
+              "url": "https://www.youtube.com/embed/SVoSuZ9Ttkg",
+              "time": "33:59",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Home Portfolio Home Page Ep2",
+              "url": "https://www.youtube.com/embed/7464HfEELNo",
+              "time": "08:43",
               "description": ""
             }
           ]

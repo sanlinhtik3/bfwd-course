@@ -2,7 +2,17 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
-import MarkDownM from '../components/MarkDown';
+// Mark Down
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import rehypeHighlight from 'rehype-highlight'
+import remarkSlug from 'remark-slug'
+import remarkToc from 'remark-toc'
+import rehypeRaw from 'rehype-raw'
+
+import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
+import { vscDarkPlus } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import { oneDark } from 'react-syntax-highlighter/dist/cjs/styles/prism'
 
 const markdown = `# A demo of \`react-markdown\`
 \`react-markdown\` is a markdown component for React.
@@ -82,15 +92,38 @@ Much more info is available in the
 ***
 A component by [Espen Hovlandsdal](https://espen.codes/)`;
 
-const MarkDown = () => {
+const MarkDown = (props) => {
+    const syntaxTheme = vscDarkPlus
     return (
         <>
-            <HelmetProvider>
-                <Helmet>
-                    <title>Mark Down</title>
-                </Helmet>
-            </HelmetProvider>
-            <MarkDownM markdown={markdown}/>
+            <ReactMarkdown
+                className="markdown-body"
+                remarkPlugins={[remarkSlug, remarkToc, remarkGfm]}
+                // rehypePlugins={[[rehypeHighlight, {ignoreMissing: true}, rehypeRaw]]}
+                rehypePlugins={[[rehypeRaw]]}
+                components={{
+                    code({node, inline, className, children, ...props}) {
+                    const match = /language-(\w+)/.exec(className || '')
+                    return !inline && match ? (
+                        <SyntaxHighlighter
+                        children={String(children).replace(/\n$/, '')}
+                        style={syntaxTheme}
+                        language={match[1]}
+                        PreTag="div"
+                        className="shl"
+                        // showLineNumbers={true}
+                        {...props}
+                        />
+                    ) : (
+                        <code className={className} {...props}>
+                            {children}
+                        </code>
+                    )
+                    }
+                }}
+            >
+                {props.markdown}
+            </ReactMarkdown>
         </>
       )
 }

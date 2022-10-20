@@ -4,12 +4,7 @@ import { useEffect, useState } from "react";
 import React from 'react'
 
 // Mark Down
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
-import rehypeHighlight from 'rehype-highlight'
-import remarkSlug from 'remark-slug'
-import remarkToc from 'remark-toc'
-import rehypeRaw from 'rehype-raw'
+import MarkDown from "../components/MarkDown";
 
 const CourseDescription = props => {
     const {guideID} = useParams();
@@ -47,13 +42,7 @@ const CourseDescription = props => {
                         </div>
                     </div>
                     <div className="lg:col-span-2">
-                        {props.datas.description != "" ? 
-                        <ReactMarkdown 
-                            children={markdown}
-                            className="markdown-body"
-                            remarkPlugins={[remarkSlug, remarkToc, remarkGfm]}
-                            rehypePlugins={[[rehypeHighlight, {ignoreMissing: true}]]}
-                        /> : <h4>No description!</h4>}
+                        {props.datas.description != "" ? <MarkDown markdown={markdown}/> : <h4>No description!</h4>}
                     </div>
                 </div>
                 

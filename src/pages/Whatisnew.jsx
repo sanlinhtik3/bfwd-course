@@ -5,27 +5,22 @@ import React from 'react'
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 // Mark Down
-import ReactMarkdown from 'react-markdown'
-import remarkGfm from 'remark-gfm'
-import rehypeHighlight from 'rehype-highlight'
-import remarkSlug from 'remark-slug'
-import remarkToc from 'remark-toc'
-import rehypeRaw from 'rehype-raw'
+import MarkDown from "../components/MarkDown";
 
 const Whatisnew = props => {
     
     const navigate = useNavigate();
 
     const markdown = ` ## Whta\'s new?
-#### dev 0.0.9
+#### beta 1.0.0
 * What's new? add new page
 * Update text view
+* Bug fix
 
 `
 
     return (
         <>
-
             <HelmetProvider>
                 <Helmet>
                     <title>BFWD | What's new?</title>
@@ -38,13 +33,7 @@ const Whatisnew = props => {
                     <h1 className="m-0"></h1>
                 </div>
 
-                <ReactMarkdown
-                    className="markdown-body font-sans"
-                    remarkPlugins={[remarkSlug, remarkToc, remarkGfm]}
-                    rehypePlugins={[[rehypeHighlight, {ignoreMissing: true}]]}
-                >
-                    {markdown}
-                </ReactMarkdown>
+                <MarkDown markdown={markdown}/>
             </div>
         </>
     )
