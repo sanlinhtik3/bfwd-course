@@ -610,6 +610,303 @@
               "description": ""
             }
           ]
+        },
+        {
+          "id": 9,
+          "title": "FWD Knowledge",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Domain and Hosting",
+              "url": "https://www.youtube.com/embed/ii6Byw99Cjc",
+              "time": "23:03",
+              "description": "Domain နှင့် Hosting အကြောင်း"
+            },
+            {
+              "id": 2,
+              "title": "For Sele-study",
+              "url": "https://www.youtube.com/embed/LpZLn8Zsz7U",
+              "time": "4:47",
+              "description": "ကိုယ်ထူကိုယ်ထ ကြိုးစားနိုင်ဖို့အတွက်"
+            },
+            {
+              "id": 3,
+              "title": "Daily study for your idea",
+              "url": "https://www.youtube.com/embed/glBkTOzzldw",
+              "time": "15:34",
+              "description": "Project ရေးတဲ့အခါ Idea ရစေဖို့ နေ့စဉ် ကြည့်တဲ့ ‌Website"
+            },
+            {
+              "id": 4,
+              "title": "Basic Emmet",
+              "url": "https://www.youtube.com/embed/_wytWEXN-G8",
+              "time": "10:15",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Netlify",
+              "url": "https://www.youtube.com/embed/WfZ-YvGFuGc",
+              "time": "3:45",
+              "description": "Free Hosting နဲ့ Project တွေကို upload တင်ကြည့်ရအောင်"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "title": "FWD HTML",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "a Element",
+              "url": "https://www.youtube.com/embed/8P439tmwiwo",
+              "time": "21:39",
+              "description": "`a` Element ကို ဆက်လေ့လာကြရအောင်နော်"
+            },
+            {
+              "id": 2,
+              "title": "HTML Meta tags",
+              "url": "https://www.youtube.com/embed/_VBsEgIAPqE",
+              "time": "35:30",
+              "description": "HTML မှာပါရှိတဲ့ Head ထဲက `meta` အကြောင်း"
+            },
+            {
+              "id": 3,
+              "title": "HTML Option Group",
+              "url": "https://www.youtube.com/embed/mGb3gbRXqXM",
+              "time": "3:42",
+              "description": "Option တွေကို တူရာတူရာစုပြီးနာမယ်သတ်မှတ်လို့ရအောင်"
+            },
+            {
+              "id": 4,
+              "title": "HTML Download",
+              "url": "https://www.youtube.com/embed/RRt9Jfcp1dI",
+              "time": "9:41",
+              "description": "Download ဆွဲလို့ရအောင် ‌`a` Element ကိုသုံးပါတယ်။"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "title": "FWD CSS",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Flexbox Ep-1",
+              "url": "https://www.youtube.com/embed/eV4A-BHfcWY",
+              "time": "25:47",
+              "description": "Flexbox ကြီးနဲ့ ရှယ်ကြမ်းမယ်"
+            },
+            {
+              "id": 2,
+              "title": "Flexbox Ep-2",
+              "url": "https://www.youtube.com/embed/UVrTW17I2iw",
+              "time": "14:03",
+              "description": "Flexbox ကြီးနဲ့ ရှယ်ကြမ်းမယ်"
+            },
+            {
+              "id": 3,
+              "title": "Flexbox Practical Ep-1",
+              "url": "https://www.youtube.com/embed/C1SmIt7zqLo",
+              "time": "17:46",
+              "description": "Flexbox ကြီးနဲ့ ရှယ်ကြမ်းနေပြီ"
+            },
+            {
+              "id": 4,
+              "title": "Flexbox Practical Ep-2",
+              "url": "https://www.youtube.com/embed/5nSzrohwCoI",
+              "time": "13:01",
+              "description": "Flexbox ကြီးနဲ့ ရှယ်ကြမ်းနေပြီ"
+            },
+            {
+              "id": 5,
+              "title": "Flexbox Practical Ep-3",
+              "url": "https://www.youtube.com/embed/MOQ7A24zXwY",
+              "time": "11:29",
+              "description": "Flexbox ကြီးနဲ့ ရှယ်ကြမ်းနေပြီ"
+            },
+            {
+              "id": 6,
+              "title": "Flexbox Practical Ep-4",
+              "url": "https://www.youtube.com/embed/9PhIV-hRmPY",
+              "time": "6:52",
+              "description": "Flexbox ကြီးနဲ့ ရှယ်ကြမ်းနေပြီ"
+            },
+            {
+              "id": 7,
+              "title": "Flexbox Practical Ep-5",
+              "url": "https://www.youtube.com/embed/0hxdUO90a5A",
+              "time": "10:52",
+              "description": "Flexbox ကြီးနဲ့ ရှယ်ကြမ်းနေပြီ"
+            },
+            {
+              "id": 8,
+              "title": "CSS Priority",
+              "url": "https://www.youtube.com/embed/GuCVbnD52Wc",
+              "time": "14:00",
+              "description": "မင်းထက်ငါက ပိုမိုက်တယ် 😎"
+            },
+            {
+              "id": 9,
+              "title": "CSS Pseudo Element",
+              "url": "https://www.youtube.com/embed/XUZc00OJBhA",
+              "time": "26:57",
+              "description": "ထပ်ဆက် Element တွေထပ်တိုး"
+            },
+            {
+              "id": 10,
+              "title": "CSS Multiple Columns",
+              "url": "https://www.youtube.com/embed/qxm-Yn6XXjI",
+              "time": "15:57",
+              "description": "Column တွေကို လိုသလိုထိန်းဖို့ရာ"
+            },
+            {
+              "id": 11,
+              "title": "CSS Background",
+              "url": "https://www.youtube.com/embed/05WC7ijB0Wo",
+              "time": "19:19",
+              "description": "Background နဲ့မှ ပိုပြည့်စုံမှာ"
+            },
+            {
+              "id": 12,
+              "title": "CSS Variables",
+              "url": "https://www.youtube.com/embed/5b84ZHsLmd8",
+              "time": "8:32",
+              "description": "တန်ဖိုးတွေကို စုကြေညာပြီး တခြား‌တစ်နေရာကနေခေါ်သုံဖို့အတွက်"
+            },
+            {
+              "id": 13,
+              "title": "CSS Transform",
+              "url": "https://www.youtube.com/embed/n3KxOv4xucM",
+              "time": "12:57",
+              "description": "Transform နဲ့တောင်ရွေ့မြောက်"
+            },
+            {
+              "id": 14,
+              "title": "CSS Animation",
+              "url": "https://www.youtube.com/embed/3CDRBKAmeIM",
+              "time": "22:09",
+              "description": "Animation ကြောင့်အလိုလိုအလုပ်လုပ်ပြီး User တွေကိုဖမ်းစားလိုက်ပါ"
+            },
+            {
+              "id": 15,
+              "title": "Animation Practical Ep-1",
+              "url": "https://www.youtube.com/embed/hfRl3AOQ-jI",
+              "time": "8:31",
+              "description": "လက်တွေ့  Project တွေရေးသားတဲ့အခါ Animation  လေးပါမှ အရသာရှိတာပါ။ User ကိုဖမ်းစားဖို့ကလည်း Animation ကလည်း တစ်ထောင့်တစ်နေရာမှ ဖြည့်ဆည်းပေးရပါတယ်။ မပါရင်တော့ ခြောက်ကပ်ကပ်နဲ့ ပျင်းစရာဖြစ်နေတာပေါ့။ CSS Animation ကိုအသုံးပြုပြီး လက်တွေ့မှာ အသုံးများတဲ့ Card Design ကိုရေးဆွဲကြည့်ရင် ဘယ်လိုရေးရင်အကောင်းဆုံးဖြစ်မလဲဆိုတာကိုလေ့လာရအောင်ပါ... အပိုင်းက ၃ ပိုင်းပါ ပါတယ်။"
+            },
+            {
+              "id": 16,
+              "title": "Animation Practical Ep-2",
+              "url": "https://www.youtube.com/embed/D_P10-MMIlk",
+              "time": "7:29",
+              "description": ""
+            },
+            {
+              "id": 17,
+              "title": "Animation Practical Ep-3",
+              "url": "https://www.youtube.com/embed/GASzNO46KbM",
+              "time": "19:26",
+              "description": "အချောသပ်လေးမှာ ပိုပြီးမိုက်သွားအောင် Animation ကိုနည်းနည်းပိုထည့်ထားပါတယ် \n uigradient : https://uigradients.com/#BlueSkies \n fonts : https://fonts.google.com/specimen/Oswald \n Code Pen : https://codepen.io/sanlinhtik3/pen/yLzGGBo"
+            },
+            {
+              "id": 18,
+              "title": "Fontawesome",
+              "url": "https://www.youtube.com/embed/BPSRd4Wy-k4",
+              "time": "13:55",
+              "description": "Icon တွေကိုကျွန်တော်တို့ကိုယ်တိုမဆွဲတော့ပါဘူး အသုံးများတယ်၊ လန်းတယ်၊ Free ရတဲ့၊ သုံးရတာလွယ်တဲ့ Fontawesome ဆွဲပြီးသားတွေကိုယူသုံးပါ့မယ် \n Fontawesome : https://fontawesome.com/"
+            },
+            {
+              "id": 19,
+              "title": "Minify & Beautify",
+              "url": "https://www.youtube.com/embed/gvxmb-ns4pg",
+              "time": "15:21",
+              "description": "ဖိုင်တွေကို Reload ဆွဲတဲ့အခါ ပိုပြီးတော့မြန်စေချင်တယ်ဆိုရင် minify ကိုအသုံးပြုရပါတယ်။ ဒါပေမဲ့ ကျွန်တော်‌တို့တွေဖတ်တဲ့အခါတော့ နားလည်ဖို့ခက်ပါတယ်။ Beautify က Format ကျအောင်ရေးထားတော့ ဖတ်တဲ့အခါ နားလည်လွယ်ပါတယ်..."
+            },
+            {
+              "id": 20,
+              "title": "Overflow",
+              "url": "https://www.youtube.com/embed/X4BI4VluFJY",
+              "time": "5:14",
+              "description": "သူပိုင်ထားတဲ့ Area ထက်များ‌‌နေတဲ့အခါ Scroll ‌ဆွဲလို့ရပါတယ်။ ဒါပေမဲ့ သူများတွေကို သူ့နဲ့လိုက်ပြီး Scroll လုပ်သွားပါတယ်။ အဲ့လိုမလုပ်ချင်ဘူးဆိုရင် တစ်မျိုးစဉ်းစားကြတာပေါ့..."
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "title": "Instagram Redesign",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Instagram Ep-1",
+              "url": "https://www.youtube.com/embed/kxw48RDxCt0",
+              "time": "7:59",
+              "description": "Socail Media တစ်ခုဖြစ်တဲ့ instagram ကို ဆွဲပြထားပါတယ်။ ဒါလေးသားအဆင်ပြေအောင်ရေးနိုင်ရင် တော်တော်လေးကို အဆင်ပြေသွားပြီလို့ ပြောလို့ရပါမယ်... \n ရေးတဲ့နေရာမှာ တစ်ချို့အပိုင်းတွေက အနည်းငယ်ရှုပ်သွားတတ်ပါတယ်။ အဲ့လိုရှုပ်သွားလို့  နားမလည်တော့တဲ့အခါ အားမငယ်ပါနဲ့ ကျွန်တော့ကိုဆက်သွယ်ပေးပါ... We can do it. \n UI: https://dribbble.com/shots/15379093-Instagram-Redesign-Concept-Web-app"
+            },
+            {
+              "id": 2,
+              "title": "Instagram Ep-2",
+              "url": "https://www.youtube.com/embed/-Qrlkx-QCe0",
+              "time": "32:51",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Instagram Ep-3",
+              "url": "https://www.youtube.com/embed/1P23rwqiVUs",
+              "time": "18:19",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Instagram Ep-4",
+              "url": "https://www.youtube.com/embed/Bw4EPAMjy18",
+              "time": "17:54",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Instagram Ep-5",
+              "url": "https://www.youtube.com/embed/GAGJOHgQg_U",
+              "time": "8:16",
+              "description": ""
+            },
+            {
+              "id": 6,
+              "title": "Instagram Ep-6",
+              "url": "https://www.youtube.com/embed/GzcH1aRjH6Y",
+              "time": "21:47",
+              "description": ""
+            },
+            {
+              "id": 7,
+              "title": "Instagram Ep-7",
+              "url": "https://www.youtube.com/embed/14auwD8i7Mc",
+              "time": "15:42",
+              "description": ""
+            },
+            {
+              "id": 8,
+              "title": "Instagram Ep-8",
+              "url": "https://www.youtube.com/embed/iz138ipHQLA",
+              "time": "14:24",
+              "description": ""
+            },
+            {
+              "id": 9,
+              "title": "Instagram Ep-9",
+              "url": "https://www.youtube.com/embed/BBj3RXLqlI0",
+              "time": "10:56",
+              "description": ""
+            },
+            {
+              "id": 10,
+              "title": "Instagram Ep-10",
+              "url": "https://www.youtube.com/embed/0mEz6_ORNeQ",
+              "time": "26:39",
+              "description": ""
+            }
+          ]
         }
       ]
     }
