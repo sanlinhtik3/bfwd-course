@@ -18,7 +18,7 @@ const CourseDetail = props => {
     return (
         <div className="">
             <div className="container mx-auto lg:px-10 2xl:px-32 lg:pt-9">
-                <CourseDescription datas={ClickVideo[0]} />
+                <CourseDescription logo={getAPIs.logo} datas={ClickVideo[0]} />
             </div>
         </div>
     )

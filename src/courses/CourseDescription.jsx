@@ -14,13 +14,13 @@ const CourseDescription = props => {
 
     const markdown = decode(props.datas.description)
 
-    let issetImg = (props.datas.logo != "" ? props.datas.logo : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png")
+    let issetImg = (props.datas.logo != "" ? props.datas.logo : props.logo)
     // console.log(decode(props.datas.description))
 
     return (
         <>
             <div className="px-3 pt-5 lg:px-0">
-                <button onClick={() => navigate('/')} className="text-pink-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
+                <button onClick={() => navigate('/')} className="text-emerald-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
                 <div className="flex items-center space-x-3 mb-5">
                     <div className="border rounded-full p-2">
                         <img src={issetImg} className="w-10 h-10 m-0" alt="" />

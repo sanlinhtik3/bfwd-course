@@ -11,6 +11,7 @@ import About from "./pages/About";
 import MarkDown from "./courses/MarkDown";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Whatisnew from "./pages/Whatisnew";
+import Logos from "./pages/Logos";
 
 const Master = props => {
 
@@ -33,6 +34,7 @@ const Master = props => {
                 <Route path="/course/:courseName/:guideID/:videoID" element={<CourseWatching/>} />
                 <Route path="/test" element={<Test/>} />
                 <Route path="/about" element={<About/>} />
+                <Route path="/logos" element={<Logos/>} />
                 <Route path="/whatisnew" element={<Whatisnew/>} />
                 <Route path="/md" element={<MarkDown/>} />
                 <Route path="*" element={<NotFount404/>} />

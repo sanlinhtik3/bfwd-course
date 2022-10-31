@@ -12,9 +12,9 @@ const Alert = props => {
 
     return (
         <>
-        <div className={`transition bg-pink-200 text-center ${close == true ? "" : "hidden"}`}>
+        <div className={`transition bg-emerald-100 text-center ${close == true ? "" : "hidden"}`}>
             <div className="flex justify-center items-center space-x-5 text-xs">
-                <h6 className="m-0 text-pink-600 py-2">
+                <h6 className="m-0 text-emerald-500 py-2">
                     <i className="fa-solid fa-triangle-exclamation"></i> {APIs.specificationVersion}
                 </h6>
                 <div onClick={clickClose} className="cursor-pointer">

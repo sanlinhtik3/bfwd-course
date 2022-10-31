@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import Master from "./Master";
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 
 // GA
 import ReactGA from 'react-ga';
@@ -11,7 +11,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 const App = () => {
   return (
     <div className="prose prose-sm prose-slate max-w-full">
-      <Master/>
+      <Master />
     </div>
   )
 }

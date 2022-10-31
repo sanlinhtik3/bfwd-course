@@ -31,14 +31,14 @@ const CourseWatching = props => {
     // Filter Lesson ID
     const WatchLesson = checkGuideGet.lessons.filter(cgg => cgg.id == videoID);
 
-    let issetImg = (Ohh.logo != "" ? Ohh.logo : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Facebook_Logo_%282019%29.png/768px-Facebook_Logo_%282019%29.png")
+    let issetImg = (Ohh.logo != "" ? Ohh.logo : getAPIs.logo)
 
     return (
         <>
             <div className="">
                 <div className="container mx-auto px-3 lg:px-10 2xl:px-32 pt-5 lg:pt-9">
                     {/* Back Button */}
-                    <button onClick={() => navigate(`/course/${courseName}`)} className="text-pink-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
+                    <button onClick={() => navigate(`/course/${courseName}`)} className="text-emerald-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
                     <div className="flex items-center space-x-3 mb-5">
                         <div className="border rounded-full p-2">
                             <img src={issetImg} className="w-10 h-10 m-0" alt="" />
@@ -67,7 +67,7 @@ const CourseWatching = props => {
                                                     {courseUnit.lessons.map((COURSE) => {
                                                         return (
                                                             <div key={COURSE.id} className="space-x-3 py-3">
-                                                                <NavLink to={`/course/${courseName}/${courseUnit.id}/${COURSE.id}`} className={({isActive}) => isActive ? 'text-pink-500 flex justify-between no-underline' : 'flex justify-between no-underline text-slate-500'}>
+                                                                <NavLink to={`/course/${courseName}/${courseUnit.id}/${COURSE.id}`} className={({isActive}) => isActive ? 'text-emerald-500 flex justify-between no-underline' : 'flex justify-between no-underline text-slate-500'}>
                                                                     <div className="flex items-center space-x-2">
                                                                         <i className="fa-regular fa-circle-play"></i>
                                                                         <span className="">{COURSE.title}</span>

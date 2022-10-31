@@ -28,7 +28,7 @@ const Whatisnew = props => {
             </HelmetProvider>
 
             <div className="container mx-auto px-3 pt-5 lg:px-10 2xl:px-32 lg:pt-9">
-                <button onClick={() => navigate('/')} className="text-pink-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
+                <button onClick={() => navigate('/')} className="text-emerald-500 mb-5"><i className="fa-solid fa-angle-left"></i> Back</button>
                 <div className="flex items-center space-x-3 mb-5">
                     <h1 className="m-0"></h1>
                 </div>

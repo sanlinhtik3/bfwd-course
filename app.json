@@ -1,9 +1,9 @@
 {
-  "name": "Digital Hunter",
+  "name": "berryleaf",
   "description": "Free course",
   "image": "",
   "url": "https://digitalhunter.io",
-  "logo": "",
+  "logo": "/bl.svg",
   "logo-brand": "",
   "created": "2022-10-10",
   "modified": "22022-10-18",
@@ -14,7 +14,7 @@
       "courseName": "BFWD",
       "img": "/img/bfwd.png",
       "level": "Basic",
-      "logo": "https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg",
+      "logo": "",
       "description": " \n ### What will i learn? \n * HTML \n * CSS \n * JS (BASIC) \n * Adobe Photoshop (option) \n * Adobe Illustrator (option) \n * Adobe Xd (option) \n * [Build Instagram Redesign](https://sanlinhtik3.github.io/ig-redesign/) \n ### Who is the target audience? \n * Anyone who wants to learn to create websites, be it beginner or intermediate programmer. \n * If you want to start your carrier as a frontend web developer, HTML is a must alone with other technologies. \n * If you wnat to make beautiful and responsive website, then this course is a must. \n ### Benefits \n * HTML is fun to write and easy to get started with, no need to set up compiler or the environment. \n * Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer \n ### Requirement \n * You won't need to know anything before taking this course \n * Engerness to learn, and make awesome website \n * Nothing else it's just you, your computer and your hunger to get started tody. \n ",
       "guides": [
         {
