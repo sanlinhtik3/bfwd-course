@@ -73,3 +73,11 @@ button:focus-visible {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mega-item {
+  @apply lg:invisible lg:opacity-0;
+}
+
+.mega:hover .mega-item {
+  @apply lg:visible lg:translate-y-1 lg:opacity-100;
+}

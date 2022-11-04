@@ -12,12 +12,20 @@ const Whatisnew = props => {
     const navigate = useNavigate();
 
     const markdown = ` ## Whta\'s new?
+#### v 1.0.0
+
+* Add New Navbar
+* Bug fix
+
+***
+
 #### beta 1.0.0
+
 * What's new? add new page
 * Update text view
 * Bug fix
 
-`
+`;
 
     return (
         <>

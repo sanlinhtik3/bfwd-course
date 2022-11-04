@@ -12,6 +12,7 @@ import MarkDown from "./courses/MarkDown";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Whatisnew from "./pages/Whatisnew";
 import Logos from "./pages/Logos";
+import Nav from "./components/Nav";
 
 const Master = props => {
 
@@ -26,7 +27,7 @@ const Master = props => {
                 </Helmet>
             </HelmetProvider>
             <Alert/>
-            <Navbar/>
+            <Nav/>
             <Routes>
                 <Route path="/" element={<Course/>}></Route>
                 <Route path="/course" element={<Course/>} />
