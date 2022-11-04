@@ -43,12 +43,12 @@ const Nav = () => {
                                 <ul className="lg:flex justify-center lg:space-x-5 list-none pl-0 my-0">
                                     <li className="group py-1 my-0 border-b lg:border-none last:border-none">
                                         <div className="rounded-xl my-0 text-slate-600 lg:hover:bg-slate-200 px-3 py-1 transition duration-75">
-                                            <NavLink className={({ isActive }) => isActive ? 'text-emerald-500 no-underline' : 'no-underline'} to="/" end>Home</NavLink>
+                                            <NavLink onClick={menuIcon} className={({ isActive }) => isActive ? 'text-emerald-500 no-underline' : 'no-underline'} to="/" end>Home</NavLink>
                                         </div>
                                     </li>
                                     <li className="group py-1 my-0 border-b lg:border-none last:border-none">
                                         <div className="rounded-xl my-0 text-slate-600 lg:hover:bg-slate-200 px-3 py-1 transition duration-75">
-                                            <NavLink className={({ isActive }) => isActive ? 'text-emerald-500 no-underline' : 'no-underline'} to="/about" end>About</NavLink>
+                                            <NavLink onClick={menuIcon} className={({ isActive }) => isActive ? 'text-emerald-500 no-underline' : 'no-underline'} to="/about" end>About</NavLink>
                                         </div>
                                     </li>
                                     <li className="group py-1 my-0 border-b lg:border-none last:border-none mega">
@@ -78,13 +78,13 @@ const Nav = () => {
                                                     <div className={`amazing-item lg:flex lg:opacity-100 ${isDevelopmentMenu ? "" : "hidden opacity-0"}`}>
                                                         <ul className="list-none pl-0 grid grid-cols-2 lg:grid-cols-1">
                                                             <li className="p-0">
-                                                                <NavLink className={({ isActive }) => isActive ? 'text-emerald-500 hover:text-emerald-600 transition-all delay-75 rounded-xl no-underline' : 'hover:text-emerald-600 text-slate-500 transition-all delay-75 rounded-xl no-underline'} to="/whatisnew" end>What's new</NavLink>
+                                                                <NavLink onClick={menuIcon} className={({ isActive }) => isActive ? 'text-emerald-500 hover:text-emerald-600 transition-all delay-75 rounded-xl no-underline' : 'hover:text-emerald-600 text-slate-500 transition-all delay-75 rounded-xl no-underline'} to="/whatisnew" end>What's new</NavLink>
                                                             </li>
                                                             <li className="p-0">
-                                                                <NavLink className={({ isActive }) => isActive ? 'text-emerald-500 hover:text-emerald-600 transition-all delay-75 rounded-xl no-underline' : 'hover:text-emerald-600 text-slate-500 transition-all delay-75 rounded-xl no-underline'} to="/" end>Course</NavLink>
+                                                                <NavLink onClick={menuIcon} className={({ isActive }) => isActive ? 'text-emerald-500 hover:text-emerald-600 transition-all delay-75 rounded-xl no-underline' : 'hover:text-emerald-600 text-slate-500 transition-all delay-75 rounded-xl no-underline'} to="/" end>Course</NavLink>
                                                             </li>
                                                             <li className="p-0">
-                                                                <NavLink className={({ isActive }) => isActive ? 'text-emerald-500 hover:text-emerald-600 transition-all delay-75 rounded-xl no-underline' : 'hover:text-emerald-600 text-slate-500 transition-all delay-75 rounded-xl no-underline'} to="/logos" end>Logo</NavLink>
+                                                                <NavLink onClick={menuIcon} className={({ isActive }) => isActive ? 'text-emerald-500 hover:text-emerald-600 transition-all delay-75 rounded-xl no-underline' : 'hover:text-emerald-600 text-slate-500 transition-all delay-75 rounded-xl no-underline'} to="/logos" end>Logo</NavLink>
                                                             </li>
                                                         </ul>
                                                     </div>
