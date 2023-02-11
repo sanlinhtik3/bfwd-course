@@ -80,9 +80,11 @@ const CourseList = props => {
                             </div>
                             <div className="mt-3 flex items-center space-x-3 font-oswald">
                               <h2 className="mt-0 mb-0">{API.courseName}</h2>
-                              <h6 className="mb-0 bg-emerald-500 text-slate-100 px-3 py-1 rounded-md text-xs">
-                                {API.fee}
-                              </h6>
+                              {API.fee === "Free" && (
+                                <h6 className="mb-0 bg-emerald-500 text-slate-100 px-3 py-1 rounded-md text-xs">
+                                  {API.fee}
+                                </h6>
+                              )}
 
                               {/* Enrollments */}
 
@@ -109,7 +111,9 @@ const CourseList = props => {
                               href=""
                               className="bg-emerald-500 text-slate-100 px-3 py-2 rounded-md no-underline w-full text-center mt-5 font-oswald outline outline-emerald-200"
                             >
-                              Start Course for Free
+                              {API.fee === "Free"
+                                ? "Start Course for Free"
+                                : "Enroll"}
                             </div>
                           </div>
                         );
