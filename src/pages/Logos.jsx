@@ -11,7 +11,7 @@ const Logos = props => {
     const navigate = useNavigate();
 
     const markdown = `
-# Berry Leaf Logo
+# inficreax Logo
     `
 
     return (
@@ -32,8 +32,8 @@ const Logos = props => {
 
                 <div className="grid mt-5 gap-y-9">
                     <div className="hover:scale-[0.99] transition shadow p-3 rounded-lg flex flex-col justify-center items-center text-center">
-                        <img className=" w-80" src="/bl.svg" alt="" />
-                        <a href="/bl.svg" className="bg-emerald-500 p-3 w-full rounded-md no-underline hover:bg-emerald-400 transition hover:text-slate-50" download>Download Logo</a>
+                        <img className=" w-80" src="/inficreax.svg" alt="" />
+                        <a href="/inficreax.svg" className="bg-emerald-500 p-3 w-full rounded-md no-underline hover:bg-emerald-400 transition hover:text-slate-50" download>Download Logo</a>
                     </div>
                     <div className="hover:scale-[0.99] transition shadow p-3 rounded-lg flex flex-col justify-center items-center text-center">
                         <img className=" w-80" src="/img/brand-logo.svg" alt="" />
