@@ -63,13 +63,13 @@ const CourseWatching = props => {
                                             <div key={courseUnit.id} className="">
                                                 {/* {console.log(courseUnit)} */}
                                                 <h2>Guide {courseUnit.id} : {courseUnit.title}</h2>
-                                                <div className="grid grid-cols-1 divide-y text-xs">
+                                                <div className="grid grid-cols-1 text-xs">
                                                     {courseUnit.lessons.map((COURSE) => {
                                                         return (
-                                                            <div key={COURSE.id} className="space-x-3 py-3">
+                                                            <div key={COURSE.id} className="space-x-3 py-3 border-l-4 border-emerald-50">
                                                                 <NavLink to={`/course/${courseName}/${courseUnit.id}/${COURSE.id}`} className={({isActive}) => isActive ? 'text-emerald-500 flex justify-between no-underline' : 'flex justify-between no-underline text-slate-500'}>
                                                                     <div className="flex items-center space-x-2">
-                                                                        <i className="fa-regular fa-circle-play"></i>
+                                                                        <i className="fa-regular fa-circle-play -ml-2 bg-white"></i>
                                                                         <span className="">{COURSE.title}</span>
                                                                     </div>
                                                                     <div className="">{COURSE.time}</div>

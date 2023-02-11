@@ -15,8 +15,8 @@
       "img": "/img/Inficreax-BFWD_Free_Course_Thumbnail.png",
       "level": "Basic",
       "fee": "Free",
-      "originFee":"50,000",
-      "discount": "10,000",
+      "originFee": "40,000",
+      "discount": "00,000",
       "category": "Frontned",
       "enrollments": "1",
       "logo": "",
@@ -917,6 +917,92 @@
     },
     {
       "id": 2,
+      "courseName": "Bootstrap FWD",
+      "img": "/img/Inficreax-fwd_Course_Thumbnail.png",
+      "level": "Basic to Advance",
+      "fee": "Paid",
+      "originFee": "60,000",
+      "discount": "30,000",
+      "category": "Frontned",
+      "enrollments": "300",
+      "logo": "",
+      "description": " ### About Course \n သင်ခန်းစာပေါင်း 86 ပုဒ်ပါဝင်ပြီး အတန်းအပ်တဲ့အခါ HTML, CSS, JavaScript, Github, Ai, Ps, Xd တို့ကိုပါ Gift အနေနှင့်ရရှိမှာဖြစ်ပါတယ်။ အတန်းအပ်မည်ဆိုပါက [Messenger](https://m.me/inficreax) မှာ `FWD` လို့ပေးပို့ပြီး အတန်းအပ်နိုင်ပါတယ်။ \n ### This course includes: \n * ⏰ 120 hours on-demand video \n * 📂 86 downloadable resources \n * 🏆 Certificate of completion    \n ### What will i learn? \n * Guide 1: Introduction \n * Guide 2: CSS Components \n * Guide 3: JavaScript Components \n * Guide 4: Layouts \n * Guide 5: Utilities \n * Guide 6: Icons \n * [Guide 7: Portfolio Project](https://dh-b5.netlify.app) \n * [Guide 9: Admin Dashboard](https://dh-admin-dashboard.netlify.app) \n * Guide 9: How to get Certificate \n ### Who is the target audience? \n * Anyone who wants to learn to create websites, be it beginner or intermediate programmer. \n * If you want to start your carrier as a frontend web developer, HTML is a must alone with other technologies. \n * If you wnat to make beautiful and responsive website, then this course is a must. \n ### Benefits \n * HTML is fun to write and easy to get started with, no need to set up compiler or the environment. \n * Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer \n ### Requirement \n * You won't need to know anything before taking this course \n * Eagerness to learn, and make awesome website \n * Nothing else it's just you, your computer and your hunger to get started today. \n ",
+      "guides": [
+        {
+          "id": 1,
+          "title": "Bootstrap Introduction",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Tailwind CSS Quick Start for Card Component",
+              "url": "https://www.youtube.com/embed/-ufqwpQRlF0",
+              "time": "23:52",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "CSS Component",
+          "lessons": [
+            
+          ]
+        },
+        {
+          "id": 3,
+          "title": "JavaScript Components",
+          "lessons": []
+        },
+        {
+          "id": 4,
+          "title": "Layouts",
+          "lessons": [
+            
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Utilities",
+          "lessons": []
+        },
+        {
+          "id": 6,
+          "title": "Icons",
+          "lessons": []
+        },
+        {
+          "id": 7,
+          "title": "Portfolio Project",
+          "lessons": [
+            {
+              "id": 26,
+              "title": "Tailwind CSS Quick Start for Card Component",
+              "url": "https://www.youtube.com/embed/42GWaaDTh4w",
+              "time": "15:50",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "title": "Admin Dashboard",
+          "lessons": [{
+            "id": 19,
+            "title": "Dashboard Search UI",
+            "url": "https://www.youtube.com/embed/vh6mqpUR_8k",
+            "time": "20:13",
+            "description": ""
+          }]
+        },
+        {
+          "id": 9,
+          "title": "How to get Certificate",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": 3,
       "courseName": "Tailwind CSS",
       "img": "/img/Inficreax-tailwindcss_Course_Thumbnail.png",
       "level": "Basic to Advance",
@@ -926,8 +1012,250 @@
       "category": "Frontned",
       "enrollments": "100",
       "logo": "",
-      "description": " \n ### What will i learn? \n * HTML \n * CSS \n * JS (BASIC) \n * Adobe Photoshop (option) \n * Adobe Illustrator (option) \n * Adobe Xd (option) \n * [Build Instagram Redesign](https://sanlinhtik3.github.io/ig-redesign/) \n ### Who is the target audience? \n * Anyone who wants to learn to create websites, be it beginner or intermediate programmer. \n * If you want to start your carrier as a frontend web developer, HTML is a must alone with other technologies. \n * If you wnat to make beautiful and responsive website, then this course is a must. \n ### Benefits \n * HTML is fun to write and easy to get started with, no need to set up compiler or the environment. \n * Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer \n ### Requirement \n * You won't need to know anything before taking this course \n * Eagerness to learn, and make awesome website \n * Nothing else it's just you, your computer and your hunger to get started today. \n ",
-      "guides": []
+      "description": " ### About Course \n သင်ခန်းစာပေါင်း 72 ပုဒ်ပါဝင်ပြီး အတန်းအပ်တဲ့အခါ HTML, CSS, JavaScript, Github, Ai, Ps, Xd တို့ကိုပါ Gift အနေနှင့်ရရှိမှာဖြစ်ပါတယ်။ အတန်းအပ်မည်ဆိုပါက [Messenger](https://m.me/inficreax) မှာ `tailwind` လို့ပေးပို့ပြီး အတန်းအပ်နိုင်ပါတယ်။ \n ### This course includes: \n * ⏰ 120 hours on-demand video \n * 📂 72 downloadable resources \n * 🏆 Certificate of completion    \n ### What will i learn? \n * Guide 1: Introduction \n * Guide 2: Basic 1 \n * Guide 3: Basic 2 \n * Guide 4: Environment Setup \n * Guide 5: (5) Mini Projects \n * [Guide 6: Remote Desktop Software UI](https://sanlinhtik3.github.io/vanilla-remote-desktop-ui/) \n * [Guide 7: Landing Page](https://sanlinhtik3.github.io/landing-page/) \n * [Guide 8: Blog](https://tailwindcss-course-blog.vercel.app) \n * Guide 9: How to get Certificate \n ### Who is the target audience? \n * Anyone who wants to learn to create websites, be it beginner or intermediate programmer. \n * If you want to start your carrier as a frontend web developer, HTML is a must alone with other technologies. \n * If you wnat to make beautiful and responsive website, then this course is a must. \n ### Benefits \n * HTML is fun to write and easy to get started with, no need to set up compiler or the environment. \n * Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer \n ### Requirement \n * You won't need to know anything before taking this course \n * Eagerness to learn, and make awesome website \n * Nothing else it's just you, your computer and your hunger to get started today. \n ",
+      "guides": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Tailwind CSS Quick Start for Card Component",
+              "url": "https://www.youtube.com//embed/AhSgsC-43hM",
+              "time": "23:52",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Basic Environment Setup for macOS and Windows",
+              "url": "https://www.youtube.com/embed/MYHSYB7J8nk",
+              "time": "6:40",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Basic",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Utilities",
+              "url": "",
+              "time": "00:00",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Colors",
+              "url": "",
+              "time": "00:00",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Container Spacing​",
+              "url": "",
+              "time": "00:00",
+              "description": ""
+            },
+            {
+              "id": 4,
+              "title": "Typography​",
+              "url": "",
+              "time": "00:00",
+              "description": ""
+            },
+            {
+              "id": 5,
+              "title": "Sizing​",
+              "url": "",
+              "time": "00:00",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Basic",
+          "lessons": []
+        },
+        {
+          "id": 4,
+          "title": "Environment Setup",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "Create an environment Tailwind CSS CLI​",
+              "url": "https://www.youtube.com/embed/tZX2dGVixA0",
+              "time": "19:37",
+              "description": ""
+            },
+            {
+              "id": 2,
+              "title": "Functions & Directives​",
+              "url": "https://www.youtube.com/embed/QVI-klcRR6E",
+              "time": "19:37",
+              "description": ""
+            },
+            {
+              "id": 3,
+              "title": "Vite TailwindCSS​",
+              "url": "https://www.youtube.com/embed/FEGrmMtRC54",
+              "time": "23:49",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Mini Projects",
+          "lessons": []
+        },
+        {
+          "id": 6,
+          "title": "Remote Desktio Software UI",
+          "lessons": []
+        },
+        {
+          "id": 7,
+          "title": "Landing Page",
+          "lessons": []
+        },
+        {
+          "id": 8,
+          "title": "Blog",
+          "lessons": []
+        },
+        {
+          "id": 9,
+          "title": "How to get Certificate",
+          "lessons": []
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "courseName": "ReactJS",
+      "img": "/img/Inficreax-react_Course_Thumbnail.png",
+      "level": "Basic to Advance",
+      "fee": "Paid",
+      "originFee": "60,000",
+      "discount": "30,500",
+      "category": "Frontned",
+      "enrollments": "300",
+      "logo": "",
+      "description": " ### About Course \n သင်ခန်းစာပေါင်း 75 ပုဒ်ပါဝင်ပြီး အတန်းအပ်တဲ့အခါ HTML, CSS, JavaScript, Github, Ai, Ps, Xd တို့ကိုပါ Gift အနေနှင့်ရရှိမှာဖြစ်ပါတယ်။ အတန်းအပ်မည်ဆိုပါက [Messenger](https://m.me/inficreax) မှာ `reactjs` လို့ပေးပို့ပြီး အတန်းအပ်နိုင်ပါတယ်။ \n ### This course includes: \n * ⏰ 120 hours on-demand video \n * 📂 75 downloadable resources \n * 🏆 Certificate of completion    \n ### What will i learn? \n * Guide 1: Introduction \n * Guide 2: ES6 \n * Guide 3: Environdment Setup \n * Guide 4: Basic \n * Guide 5: Data Flow \n * Guide 6: Composition & Code Splitting \n * Guide 7: Component Style \n * Guide 8: Functional Components \n * Guide 9: Context \n Guide 10: Redux \n Guide 11: React Router \n Guide 12: Adding Images, Fonts, etc... \n Guide 13: Practical Project \n Guide 14: React Markdown \n Guide 15: React Native \n Guide 16: React Native Basic Components \n Guide 17: React Native Project \n Guide 18 : MERN Backend \n ### Who is the target audience? \n * Anyone who wants to learn to create websites, be it beginner or intermediate programmer. \n * If you want to start your carrier as a frontend web developer, HTML is a must alone with other technologies. \n * If you wnat to make beautiful and responsive website, then this course is a must. \n ### Benefits \n * HTML is fun to write and easy to get started with, no need to set up compiler or the environment. \n * Nowadays every business, be it small or large needs a website, so there is a lot of opportunity for a web developer \n ### Requirement \n * You won't need to know anything before taking this course \n * Eagerness to learn, and make awesome website \n * Nothing else it's just you, your computer and your hunger to get started today. \n ",
+      "guides": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "React Introduction",
+              "url": "https://www.youtube.com/embed/z63k41YlE94",
+              "time": "10:27",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "title": "Basic",
+          "lessons": [
+            {
+              "id": 1,
+              "title": "What is ES6?",
+              "url": "https://www.youtube.com/embed/B8IJBp0ktSc",
+              "time": "1:30",
+              "description": ""
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "title": "Environdment Setup",
+          "lessons": []
+        },
+        {
+          "id": 4,
+          "title": "Basic",
+          "lessons": [
+            
+          ]
+        },
+        {
+          "id": 5,
+          "title": "Data Flow",
+          "lessons": []
+        },
+        {
+          "id": 6,
+          "title": "Composition & Code Splitting",
+          "lessons": []
+        },
+        {
+          "id": 7,
+          "title": "Component Style",
+          "lessons": []
+        },
+        {
+          "id": 8,
+          "title": "Functional Components",
+          "lessons": []
+        },
+        {
+          "id": 9,
+          "title": "Context",
+          "lessons": []
+        },
+        {
+          "id": 10,
+          "title": "Redux",
+          "lessons": []
+        },
+        {
+          "id": 11,
+          "title": "React Router",
+          "lessons": []
+        },
+        {
+          "id": 12,
+          "title": "Adding Images, Fonts, etc...",
+          "lessons": []
+        },
+        {
+          "id": 13,
+          "title": "Practical Project",
+          "lessons": []
+        },
+        {
+          "id": 14,
+          "title": "React Markdown",
+          "lessons": []
+        },
+        {
+          "id": 15,
+          "title": "React Native",
+          "lessons": []
+        },
+        {
+          "id": 16,
+          "title": "React Native Basic Components",
+          "lessons": []
+        },
+        {
+          "id": 17,
+          "title": "React Native Project",
+          "lessons": []
+        },
+        {
+          "id": 18,
+          "title": "MERN Backend",
+          "lessons": []
+        }
+      ]
     }
   ]
 }

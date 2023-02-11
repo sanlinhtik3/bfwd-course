@@ -26,7 +26,7 @@ const Master = props => {
                     <meta property="og:description" content="Digital Hunter E-Learning Platform Free"/>
                 </Helmet>
             </HelmetProvider>
-            <Alert/>
+            {/* <Alert/> */}
             <Nav/>
             <Routes>
                 <Route path="/" element={<Course/>}></Route>
