@@ -24,9 +24,9 @@ const CourseDescription = props => {
           <HelmetProvider>
               <Helmet>
                   <title>{props.datas.courseName} | inficreax</title>
-                  <meta property="og:title" content="Digital Hunter E-Learning Platform Free"/>
-                  <meta name="description" content="Digital Hunter E-Learning Platform Free"/>
-                  <meta property="og:description" content="Digital Hunter E-Learning Platform Free"/>
+                  <meta property="og:title" content="Inficreax E-Learning Platform Free"/>
+                  <meta name="description" content="Inficreax E-Learning Platform Free"/>
+                  <meta property="og:description" content="Inficreax E-Learning Platform Free"/>
               </Helmet>
           </HelmetProvider>
         <div className="px-3 lg:px-0">
