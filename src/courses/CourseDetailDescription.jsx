@@ -11,7 +11,7 @@ const CourseDetailDescription = props => {
 
     return (
         <>
-            <div className="mt-20">
+            <div className=" mt-10 lg:mt-20">
                 <div className="">
                     <h5 className="">About This Lesson</h5>
                     <hr className="mt-3 mb-10" />

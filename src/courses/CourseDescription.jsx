@@ -2,6 +2,8 @@ import { NavLink, useNavigate, useParams } from "react-router-dom";
 import {decode} from 'html-entities';
 import { useEffect, useState } from "react";
 import React from 'react'
+import { Helmet, HelmetProvider } from "react-helmet-async";
+
 
 // Mark Down
 import MarkDown from "../components/MarkDown";
@@ -19,7 +21,15 @@ const CourseDescription = props => {
 
     return (
       <>
-        <div className="px-3 pt-5 lg:px-0">
+          <HelmetProvider>
+              <Helmet>
+                  <title>{props.datas.courseName} | inficreax</title>
+                  <meta property="og:title" content="Digital Hunter E-Learning Platform Free"/>
+                  <meta name="description" content="Digital Hunter E-Learning Platform Free"/>
+                  <meta property="og:description" content="Digital Hunter E-Learning Platform Free"/>
+              </Helmet>
+          </HelmetProvider>
+        <div className="px-3 lg:px-0">
           <button
             onClick={() => navigate("/")}
             className="text-emerald-500 mb-5"
@@ -30,7 +40,7 @@ const CourseDescription = props => {
             <div className="border rounded-full p-2">
               <img src={issetImg} className="w-10 h-10 m-0" alt="" />
             </div>
-            <h1 className="m-0">{props.datas.courseName}</h1>
+            <h1 className="m-0 text-xl lg:text-3xl font-semibold font-poppins">{props.datas.courseName}</h1>
           </div>
 
           <div className="grid lg:grid-cols-6 gap-5">
@@ -39,7 +49,7 @@ const CourseDescription = props => {
                 onClick={() =>
                   navigate(`/course/${props.datas.courseName}/1/1`)
                 }
-                className="shadow-lg shadow-emerald-50 p-3 rounded-2xl group transition hover:scale-95 hover:bg-slate-50"
+                className="lg:sticky lg:top-5 shadow-lg shadow-emerald-50 p-3 rounded-2xl group transition hover:scale-95 hover:bg-slate-50"
               >
                 <div className="relative">
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition opacity-0 group-hover:opacity-100">

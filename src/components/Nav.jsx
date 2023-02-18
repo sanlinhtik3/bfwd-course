@@ -108,7 +108,7 @@ const Nav = () => {
                                 </div>
                             </div>
                         </div>
-                        <div onClick={menuIcon}>
+                        <div onClick={menuIcon} className="lg:hidden">
                             <i className="fa-solid fa-bars"></i>
                         </div>
                     </nav>

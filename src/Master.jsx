@@ -20,7 +20,7 @@ const Master = props => {
         <>
             <HelmetProvider>
                 <Helmet>
-                    <title>BFWD</title>
+                    <title>inficreax</title>
                     <meta property="og:title" content="Digital Hunter E-Learning Platform Free"/>
                     <meta name="description" content="Digital Hunter E-Learning Platform Free"/>
                     <meta property="og:description" content="Digital Hunter E-Learning Platform Free"/>
